@@ -1,0 +1,160 @@
+[
+  {
+    "filename": "PATINA_Pfizer.pdf",
+    "title": "Pfizer\u2019s IBRANCE\u00ae in Combination with Standard-of-Care Therapies Extends Median Progression-Free Survival by Over 15 Months in Phase 3 PATINA Study in Patients with HR+, HER2+ Metastatic Breast Cancer",
+    "publication_year": 2024,
+    "population": {
+      "cancer_type": "Hormone receptor-positive (HR+), human epidermal growth factor receptor 2-positive (HER2+) metastatic breast cancer (MBC)",
+      "disease_stage": "Metastatic",
+      "patient_age_range": null,
+      "sex_distribution": null,
+      "comorbidities_summary": null,
+      "prior_treatments_summary": "First-line maintenance therapy following induction chemotherapy; previously treated with anti-HER2 therapy"
+    },
+    "design": {
+      "study_type": "RCT",
+      "sample_size": 518,
+      "intervention": "IBRANCE\u00ae (palbociclib) in combination with anti-HER2 therapy (trastuzumab or trastuzumab plus pertuzumab) and endocrine therapy",
+      "comparator": "Anti-HER2 therapy (trastuzumab or trastuzumab plus pertuzumab) and endocrine therapy alone",
+      "primary_endpoint": "Progression-free survival (PFS) as assessed by the investigator",
+      "secondary_endpoints": [
+        "Overall survival"
+      ],
+      "followup_duration": null
+    },
+    "results": {
+      "primary_result_text": "The addition of IBRANCE\u00ae (palbociclib) to current standard-of-care first-line maintenance therapy resulted in statistically significant and clinically meaningful improvement in progression-free survival (PFS) by investigator assessment, extending median PFS by over 15 months.",
+      "primary_result_numeric": "Median PFS was 44.3 months (95% CI: 32.4-60.9) for patients treated with IBRANCE in combination, and 29.1 months (95% CI: 23.3-38.6) for patients treated with anti-HER2 therapy and endocrine therapy alone [HR: 0.74 (95% CI, 0.58-0.94); unstratified 1-sided p= 0.0074].",
+      "safety_profile_summary": "The safety and tolerability of IBRANCE in the PATINA study were consistent with its known safety profile in HR+, HER2- MBC, with no new safety signals identified. Common adverse events were hematologic toxicities, such as neutropenia and leukopenia. Non-hematologic adverse events included fatigue, stomatitis, and diarrhea, generally mild to moderate in severity. Across previous trials (PALOMA-1, -2, -3), ILD/pneumonitis of any grade occurred in 1.0% of IBRANCE-treated patients.",
+      "limitations_summary": "Overall survival, a secondary endpoint, was not yet mature at the time of the analysis."
+    },
+    "predicted_reliability": "High"
+  },
+  {
+    "filename": "E1910_NICE.pdf",
+    "title": "Blinatumomab with chemotherapy for consolidation treatment of Philadelphia -chromosome -negative CD19-positive B -precursor acute lymphoblastic leukaemia with no measurable residual disease [ID6405]",
+    "publication_year": 2025,
+    "population": {
+      "cancer_type": "Philadelphia-chromosome-negative (Ph-negative) CD19-positive B-precursor acute lymphoblastic leukaemia (ALL)",
+      "disease_stage": "No measurable residual disease (MRD-negative) at the start of the consolidation phase, newly diagnosed",
+      "patient_age_range": "Adults aged 30 to 70 years",
+      "sex_distribution": null,
+      "comorbidities_summary": null,
+      "prior_treatments_summary": "Pre-phase chemotherapy + steroids +/- rituximab, followed by induction/intensification chemotherapy. Study focuses on consolidation treatment."
+    },
+    "design": {
+      "study_type": "RCT",
+      "sample_size": 224,
+      "intervention": "Blinatumomab (4 cycles, each cycle = 28 mcg daily over 28 days + 14 days rest) plus standard of care consolidation chemotherapy (4 cycles)",
+      "comparator": "Standard of care consolidation chemotherapy alone (4 cycles), including cytarabine, etoposide, methotrexate, rituximab (if CD20+), pegaspargase (Cycles 1, 2 and 4), and daunorubicin, vincristine, dexamethasone, methotrexate, cyclophosphamide, cytarabine, 6-mercaptopurine, rituximab (if CD20+) (Cycle 3).",
+      "primary_endpoint": "Overall survival (OS)",
+      "secondary_endpoints": [
+        "Relapse-free survival (RFS)",
+        "Adverse events (AEs)"
+      ],
+      "followup_duration": "Ongoing; 10-year follow-up from the start of induction treatment"
+    },
+    "results": {
+      "primary_result_text": "Trial results (E1910) suggest a step change improvement in overall survival and cure rates with blinatumomab. Clinical experts consider survival-linked improvements in Ph-negative ALL after blinatumomab consolidation to be clinically meaningful.",
+      "primary_result_numeric": null,
+      "safety_profile_summary": "Blinatumomab is reported as well tolerated compared to chemotherapy. Patients expressed willingness to accept additional side effects for survival benefit. Adverse events were a secondary outcome.",
+      "limitations_summary": "Limitations include the exclusion of adults aged <30 years from the E1910 trial, differences in measurable/minimal residual disease thresholds, and uncertainty around long-term overall survival and relapse-free survival. Other considerations involve the need for additional treatment centres and training, additional MRD testing, and differences in MRD assessment technologies compared to those utilised in the UK."
+    },
+    "predicted_reliability": "High"
+  },
+  {
+    "filename": "PALOMA-2_FDA.pdf",
+    "title": "STATISTICAL REVIEW AND EVALUATION CLINICAL STUDIES",
+    "publication_year": 2015,
+    "population": {
+      "cancer_type": "ER+, HER2 -first-line metastatic breast cancer",
+      "disease_stage": "metastatic breast cancer",
+      "patient_age_range": null,
+      "sex_distribution": null,
+      "comorbidities_summary": null,
+      "prior_treatments_summary": "no prior systemic therapy for their advanced disease"
+    },
+    "design": {
+      "study_type": "RCT",
+      "sample_size": 165,
+      "intervention": "Palbociclib in combination with letrozole",
+      "comparator": "letrozole alone",
+      "primary_endpoint": "investigator-assessed progression free survival (PFS)",
+      "secondary_endpoints": [
+        "Overall Survival",
+        "Overall Response Rate"
+      ],
+      "followup_duration": "Until disease progression or toxicity (treatment period); Overall Survival until study end (follow-up period)"
+    },
+    "results": {
+      "primary_result_text": "The primary analysis demonstrated a hazard ratio of 0.488 with a 20.2 month median PFS time in the Palbociclib + letrozole arm and 10.2 month median PFS time in the letrozole arm (investigator-assessed). A blinded independent committee review (BICR) of PFS found a hazard ratio of 0.621 with a 25.7 month median PFS time in the Palbociclib + letrozole arm and 14.8 month median PFS time in the letrozole arm.",
+      "primary_result_numeric": "0.488",
+      "safety_profile_summary": null,
+      "limitations_summary": "PALOMA-1 was not designed to be a registrational trial and had several flaws of execution, including data-driven amendments to the statistical analysis plan (e.g., splitting and recombining study parts). The BICR PFS analysis was inconsistent with investigator assessment, demonstrating some evidence of investigator bias towards the treatment arm. Due to these issues, the magnitude of benefit is unclear and uncertain."
+    },
+    "predicted_reliability": "High"
+  },
+  {
+    "filename": "Personalized_Oncology_Meta_PLOS.pdf",
+    "title": "Personal approach for cancer treatment: A meta-analysis of Phase II clinical trials",
+    "publication_year": 2025,
+    "population": {
+      "cancer_type": "Various cancer types amenable to personalized genomics-based treatment (meta-analysis across oncology)",
+      "disease_stage": "Includes advanced and metastatic disease stages (implied by pre-treated patients and later lines of therapy)",
+      "patient_age_range": "Adults (18-85 years old)",
+      "sex_distribution": null,
+      "comorbidities_summary": null,
+      "prior_treatments_summary": "Included both pre-treated and treatment-na\u00efve patients; pre-treatment negatively affected PFS outcomes."
+    },
+    "design": {
+      "study_type": "Meta-Analysis",
+      "sample_size": 6536,
+      "intervention": "Personalized genomics-based cancer drug therapy (including targeted therapy, immunotherapy, and chemotherapy)",
+      "comparator": "Non-personalized cancer drug treatment",
+      "primary_endpoint": "Response Rate (RR)",
+      "secondary_endpoints": [
+        "1-year Progression-Free Survival (PFS) rates",
+        "Progression-Free Survival (PFS) medians",
+        "1-year Overall Survival (OS) rates",
+        "Overall Survival (OS) medians"
+      ],
+      "followup_duration": "Variable across studies, with 1-year rates reported for PFS and OS"
+    },
+    "results": {
+      "primary_result_text": "Personalized genomics-based cancer drug treatment significantly improved Response Rate (RR), 1-year Progression-Free Survival (PFS) rates, and 1-year Overall Survival (OS) rates. Medians of PFS and OS were also higher in personalized arms compared to non-personalized treatment.",
+      "primary_result_numeric": "Personalized treatment significantly improved RR (p=0.037), 1-year PFS (p=0.043), and 1-year OS rates (p=0.022) based on meta-regression. Medians of PFS (p=0.015) and OS (p=0.032) were also significantly higher in personalized studies based on Mann-Whitney test.",
+      "safety_profile_summary": null,
+      "limitations_summary": "High heterogeneity rates for RR, PFS, and OS across included studies, potentially due to diverse cancers, disease stages, and treatments. Median meta-analysis was less accurate and powerful compared to proportional meta-analysis due to lack of additional data. Diverse sampling approaches in different studies."
+    },
+    "predicted_reliability": "Medium"
+  },
+  {
+    "filename": "DREAMseq_Results.pdf",
+    "title": "EA6134 (DREAMseq) Clinical Trial Results Summary: Testing the Therapy Sequence for Advanced BRAF Mutation Melanoma",
+    "publication_year": 2023,
+    "population": {
+      "cancer_type": "Advanced melanoma with BRAF gene mutation",
+      "disease_stage": "Stage III or IV unresectable melanoma",
+      "patient_age_range": null,
+      "sex_distribution": null,
+      "comorbidities_summary": null,
+      "prior_treatments_summary": null
+    },
+    "design": {
+      "study_type": "RCT",
+      "sample_size": 300,
+      "intervention": "Immunotherapy drugs (nivolumab and ipilimumab) followed by targeted therapy drugs (dabrafenib and trametinib)",
+      "comparator": "Targeted therapy drugs (dabrafenib and trametinib) followed by immunotherapy drugs (nivolumab and ipilimumab)",
+      "primary_endpoint": "Two-year survival",
+      "secondary_endpoints": [],
+      "followup_duration": "2 years"
+    },
+    "results": {
+      "primary_result_text": "Patients did better with a treatment sequence that began with the immunotherapy drugs and was followed, if needed, by the targeted therapy drugs. This sequence is established as the preferred treatment approach for the vast majority of patients with advanced melanoma that has a BRAF gene mutation.",
+      "primary_result_numeric": "20% increase in two-year survival in the group that received immunotherapy first, compared with the group that received targeted therapy first.",
+      "safety_profile_summary": null,
+      "limitations_summary": null
+    },
+    "predicted_reliability": "High"
+  }
+]
