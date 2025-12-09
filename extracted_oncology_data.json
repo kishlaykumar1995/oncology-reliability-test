@@ -1,21 +1,219 @@
 [
   {
+    "filename": "1-s2.0-S1462388923001588-main.pdf",
+    "title": "A systematic review and meta-analysis of randomized controlled trials on the effectiveness of immersive virtual reality in cancer patients receiving chemotherapy",
+    "publication_year": 2023,
+    "population": {
+      "cancer_type": "Mixed cancer types, including breast, ovarian, lung, colon, other solid types, and acute leukemia in adults; unspecified cancer types in pediatric patients.",
+      "disease_stage": "Stage I to III breast or ovarian cancer, stage 0 to IV solid cancer, newly diagnosed acute leukemia.",
+      "patient_age_range": "Adults (mean age range 42.69\u201359.03 years, generally 18\u201384 years) and pediatric patients (mean age range 10.2\u201315.28 years, generally 6\u201319 years).",
+      "sex_distribution": "Predominantly women in adult cohorts (especially breast and ovarian cancer patients), with pediatric cohorts having an almost equal sex distribution.",
+      "comorbidities_summary": null,
+      "prior_treatments_summary": "All patients were actively receiving or scheduled to receive chemotherapy."
+    },
+    "design": {
+      "study_type": "Meta-Analysis",
+      "sample_size": 864,
+      "intervention": "Immersive virtual reality (IVR) using various head-mounted display devices (e.g., Vuzix Wrap 1200 VR, Oculus Go, VIVE VR Headset, Samsung Gear VR, Google Cardboard). Virtual environments included relaxing natural landscapes (sea, parks, forests, beaches, waterfalls, mountains), art museums, concerts, yoga sessions, deep-sea diving, virtual gorilla programs, VR games, and cartoon movies. Durations ranged from 5 to 90 minutes per session.",
+      "comparator": "Standard care, chemotherapy usual care, or listening to relaxing music.",
+      "primary_endpoint": "Psychological aspects: anxiety, depression, and distress.",
+      "secondary_endpoints": [
+        "Physical aspects: fatigue and pain",
+        "Objective measurements: systolic blood pressure and heart rate"
+      ],
+      "followup_duration": "Outcomes were assessed immediately after intervention and up to 48 hours post-intervention, with some interventions lasting multiple sessions over days or months."
+    },
+    "results": {
+      "primary_result_text": "Immersive virtual reality (IVR) significantly reduced anxiety and depression in adult cancer patients immediately after intervention. However, no significant effect was found on distress in adults or on anxiety 48 hours post-intervention. In pediatric patients, IVR significantly lowered pain and anxiety.",
+      "primary_result_numeric": "For adults: Anxiety (pooled SMD = -1.73, 95% CI = -2.59 to -0.86, P < 0.0001); Depression (pooled SMD = -2.21, 95% CI = -3.97 to -0.45, P = 0.01); Distress (pooled SMD = -0.63, 95% CI = -1.77 to 0.52, P = 0.28). For pediatric patients (from abstract): Pain (SMD = -1.17, 95% CI = -1.84 to -0.50); Anxiety (SMD = -1.18, 95% CI = -1.77 to -0.59).",
+      "safety_profile_summary": null,
+      "limitations_summary": "High heterogeneity was observed among included trials, particularly for anxiety and depression outcomes. Performance bias (blinding) was difficult to apply due to the nature of the IVR intervention. One trial used a measurement instrument with poor validity, leading to a high risk of bias. More robust randomized controlled trials are needed for further IVR research."
+    },
+    "predicted_reliability": "Medium"
+  },
+  {
+    "filename": "a_retrospective_cohort_study_on_the_cardiotoxicity.10.pdf",
+    "title": "A retrospective cohort study on the cardiotoxicity incidence rates of immune checkpoint inhibitors for oncology patients",
+    "publication_year": 2023,
+    "population": {
+      "cancer_type": "Oncology patients diagnosed with various cancers including lung cancer, liver cancer, gastrointestinal cancers, renal cancer, head and neck cancers, urothelial carcinoma, and unresectable or metastatic melanomas.",
+      "disease_stage": null,
+      "patient_age_range": "Over 20 years old, with mean ages ranging from 61.2 to 64.0 years across groups.",
+      "sex_distribution": "38.8% male (158 patients) and 61.2% female (249 patients).",
+      "comorbidities_summary": "Hypertension, cardiovascular diseases, chronic kidney diseases, diabetes mellitus, and hyperlipidemia were considered.",
+      "prior_treatments_summary": null
+    },
+    "design": {
+      "study_type": "Retrospective",
+      "sample_size": 407,
+      "intervention": "Patients received immune checkpoint inhibitor (ICI) therapy, ICI combined with chemotherapy, or ICI combined with targeted therapy. ICI agents included pembrolizumab, nivolumab, atezolizumab, and ipilimumab.",
+      "comparator": "ICI therapy alone (reference group).",
+      "primary_endpoint": "Incidence rates of cardiotoxicity among cancer patients.",
+      "secondary_endpoints": [
+        "Adjusted relative risk (aRR) for cardiotoxicity",
+        "Adjusted hazard ratio (aHR) for cardiotoxicity",
+        "Analysis of demographic, comorbidity, physical status, personal behavior, and medical care factors influencing cardiotoxicity."
+      ],
+      "followup_duration": "Average follow-up of 1.2 \u00b1 1.4 years (median: 0.7 years; range: 0\u20136.1 years)."
+    },
+    "results": {
+      "primary_result_text": "The total incidence rate of cardiotoxicity was 3.6 per 100 person-years. Compared to ICI therapy alone, the cardiotoxicity risk was not significantly higher in the ICI combined with chemotherapy group (adjusted hazard ratio 2.1, 95% CI 0.2\u201321.1, p = 0.528) or the ICI combined with targeted therapy group (adjusted hazard ratio 1.2, 95% CI 0.1\u20139.2, p = 0.883).",
+      "primary_result_numeric": "Total cardiotoxicity incidence rate: 3.6 per 100 person-years. For ICI combined with chemotherapy, aHR = 2.1 (95% CI 0.2\u201321.1, p = 0.528). For ICI combined with targeted therapy, aHR = 1.2 (95% CI 0.1\u20139.2, p = 0.883).",
+      "safety_profile_summary": "The incidence rate of ICI-related cardiotoxicity was low. 18 subjects (4.4%) developed cardiotoxicity, defined as myocarditis, pericarditis, arrhythmia, heart failure, and Takotsubo syndrome. Heart failure and arrhythmia were more common than myocarditis in this cohort.",
+      "limitations_summary": "The study excluded patients treated with triple therapy due to a small sample size. It was a single hospital-based retrospective cohort study, which may limit generalizability. Assessment of concurrent medications was limited to NSAIDs and corticosteroids. Myocarditis detection can be challenging due to delayed onset of symptoms."
+    },
+    "predicted_reliability": "Medium"
+  },
+  {
+    "filename": "3433.pdf",
+    "title": "Overall Survival with Palbociclib and Fulvestrant in Women with HR\u00fe/HER2/C0ABC: Updated Exploratory Analyses of PALOMA-3, a Double-blind, Phase III Randomized Study",
+    "publication_year": 2022,
+    "population": {
+      "cancer_type": "Hormone receptor-positive/human epidermal growth factor receptor 2-negative (HR+/HER2-) advanced breast cancer (ABC)",
+      "disease_stage": "Advanced breast cancer, with disease progression on prior endocrine therapy",
+      "patient_age_range": null,
+      "sex_distribution": "Women (premenopausal or postmenopausal)",
+      "comorbidities_summary": "Patients with active, uncontrolled, or symptomatic brain metastases or symptomatic visceral spread, or at risk for life-threatening complications were excluded.",
+      "prior_treatments_summary": "Disease had progressed on endocrine therapy. Up to one prior line of chemotherapy for advanced breast cancer was allowed."
+    },
+    "design": {
+      "study_type": "RCT",
+      "sample_size": 521,
+      "intervention": "Palbociclib (125 mg orally/day; 3/1 week schedule) and fulvestrant (500 mg intramuscularly)",
+      "comparator": "Placebo and fulvestrant",
+      "primary_endpoint": "Investigator-assessed Progression-Free Survival (PFS)",
+      "secondary_endpoints": [
+        "Overall Survival (OS)",
+        "Prognostic value of molecular analysis by circulating tumor DNA (ctDNA)"
+      ],
+      "followup_duration": "73.3 months"
+    },
+    "results": {
+      "primary_result_text": "The updated exploratory analysis of overall survival showed a clinically meaningful improvement in OS with palbociclib plus fulvestrant compared to placebo plus fulvestrant. This benefit was maintained with over 6 years of follow-up and was particularly evident in patients with no prior chemotherapy for advanced or metastatic disease, and generally observed across most subgroups regardless of ESR1, PIK3CA, or TP53 mutation status.",
+      "primary_result_numeric": "Median OS was 34.8 months (95% CI, 28.8\u201339.9) in the palbociclib group and 28.0 months (95% CI, 23.5\u201333.8) in the placebo group (stratified hazard ratio, 0.81; 95% CI, 0.65\u20130.99). The 6-year OS rate was 19.1% (95% CI, 14.9\u201323.7) in the palbociclib group and 12.9% (95% CI, 8.0\u201319.1) in the placebo group.",
+      "safety_profile_summary": "No new safety signals were identified. Neutropenia was the most frequently reported adverse event in the palbociclib plus fulvestrant group (any grade, 84.3%; grade 3, 57.7%; grade 4, 11.9%). Other frequent adverse events included leukopenia (60.3%), infections (55.1%), fatigue (43.8%), nausea (36.2%), and anemia (32.2%). Febrile neutropenia was reported in 1.2% of patients in the palbociclib group.",
+      "limitations_summary": "The study is an exploratory analysis and is limited by the small number of patients included in some of the analyzed subgroups."
+    },
+    "predicted_reliability": "High"
+  },
+  {
+    "filename": "robertson-et-al-2025-fulvestrant-versus-anastrozole-in-endocrine-therapy-na\u00efve-women-with.pdf",
+    "title": "Fulvestrant Versus Anastrozole in Endocrine Therapy \u2013Na\u00a8\u0131ve Women With Hormone Receptor \u2013Positive Advanced Breast Cancer: Final Overall Survival in the Phase III FALCON Trial",
+    "publication_year": 2025,
+    "population": {
+      "cancer_type": "Hormone receptor \u2013positive/human epidermal growth factor receptor 2 \u2013negative advanced breast cancer",
+      "disease_stage": "Advanced breast cancer (88% metastatic, 12% locally advanced in fulvestrant arm; 86% metastatic, 14% locally advanced in anastrozole arm)",
+      "patient_age_range": "36-90 years (median 64 years for fulvestrant, 62 years for anastrozole)",
+      "sex_distribution": "Postmenopausal women",
+      "comorbidities_summary": null,
+      "prior_treatments_summary": "Endocrine therapy \u2013na\u00a8\u0131ve. Some patients had prior chemotherapy (16-19%) or radiotherapy (22-23%) for earlier stages."
+    },
+    "design": {
+      "study_type": "RCT",
+      "sample_size": 462,
+      "intervention": "Fulvestrant 500 mg",
+      "comparator": "Anastrozole 1 mg",
+      "primary_endpoint": "Overall Survival (OS) (final prespecified analysis reported in this paper; original primary endpoint was Progression-Free Survival (PFS))",
+      "secondary_endpoints": [
+        "Progression-free survival (PFS)",
+        "Serious adverse events (SAEs)",
+        "Health-related quality of life (HRQOL)"
+      ],
+      "followup_duration": "Median follow-up of 37.1 months for OS analysis. The final OS analysis was triggered at \u226565% maturity and \u22658 years since the last patient was enrolled (data cutoff July 11, 2022)."
+    },
+    "results": {
+      "primary_result_text": "The final overall survival (OS) analysis of FALCON demonstrated no significant difference between fulvestrant and anastrozole.",
+      "primary_result_numeric": "Median OS: Fulvestrant 44.8 months vs. Anastrozole 42.7 months. Hazard Ratio (HR): 0.97 (95% CI, 0.77 to 1.21); P=0.7579.",
+      "safety_profile_summary": "The safety profile of fulvestrant remained consistent with earlier observations; no new safety signals were identified. Most serious adverse events (SAEs) were considered unrelated to study treatment. SAEs occurred in 17.1% of fulvestrant patients and 15.5% of anastrozole patients.",
+      "limitations_summary": "The study was not powered to demonstrate a significant OS difference. Data collection after the primary analysis was reduced, limited to survival, HRQOL, subsequent therapies, and SAEs. PFS to subsequent anticancer therapy was not a prespecified endpoint, and data on subsequent therapies were collected from approximately half of the patients."
+    },
+    "predicted_reliability": "High"
+  },
+  {
+    "filename": "blinder-et-al-2023-financial-toxicity-monitoring-in-a-randomized-controlled-trial-of-pati.pdf",
+    "title": "Financial Toxicity Monitoring in a Randomized Controlled Trial of Patient-Reported Outcomes During Cancer Treatment (Alliance AFT-39)",
+    "publication_year": 2023,
+    "population": {
+      "cancer_type": "Metastatic cancer (various types including Thoracic, Breast, Colorectal, Prostate, Gynecologic, Myeloma, Lymphoma, Melanoma, Genitourinary nonprostate, Gastroesophageal, Pancreas, Hepatobiliary); excluded indolent lymphoma, acute leukemia, and those receiving hormonal monotherapy.",
+      "disease_stage": "Metastatic cancer",
+      "patient_age_range": "28-93 years (median 63 years, mean 62.20 years)",
+      "sex_distribution": "58.3% female, 41.7% male",
+      "comorbidities_summary": null,
+      "prior_treatments_summary": "Patients were undergoing systemic treatment (chemotherapy, targeted oral therapy, or immunotherapy). Current line of systemic treatment varied: First line (37.4%), Second line (30.8%), etc."
+    },
+    "design": {
+      "study_type": "RCT",
+      "sample_size": 1191,
+      "intervention": "Digital symptom monitoring with PROs (online or automated telephone surveys) weekly for up to 1 year, including monthly single-item FT screening (FACIT-COST, 'My illness has been a financial hardship to my family and me') with automated alerts to nurses for concerning scores (>2 on a 0-4 scale).",
+      "comparator": "Usual care",
+      "primary_endpoint": "Development or worsening of financial difficulties, assessed via the EORTC QLQ-C30 financial difficulties measure (dichotomized as developed/worsened vs. improved/unchanged) at any time compared with baseline.",
+      "secondary_endpoints": [
+        "Patient and nurse interviews about experiences with the intervention",
+        "Overall survival (primary outcome of the parent PRO-TECT trial, to be reported later)",
+        "Physical function",
+        "Symptom control",
+        "Health-related quality of life (HRQoL)"
+      ],
+      "followup_duration": "Up to 1 year (monthly for FT screening, and EORTC QLQ-C30 administered at enrollment and 1, 3, 6, 9, and 12 months)"
+    },
+    "results": {
+      "primary_result_text": "Financial toxicity (FT) screening as part of routine digital patient monitoring with patient-reported outcomes (PROs) significantly reduced the development, or worsening, of financial difficulties among patients undergoing systemic cancer therapy.",
+      "primary_result_numeric": "30.2% of participants at PRO practices developed worsened financial difficulties, compared with 39.0% at control practices (P=0.004). This represents an 8.8% absolute difference, corresponding to a number needed to screen of 11.4.",
+      "safety_profile_summary": null,
+      "limitations_summary": "Study accrual was discontinued early due to the COVID-19 pandemic. FT screening was added to the intervention in March 2019, 18 months after study enrollment began, meaning 302 participants completed participation before FT screening was included. The findings for worsening financial difficulties are considered a secondary outcome of the broader trial and exploratory."
+    },
+    "predicted_reliability": "High"
+  },
+  {
+    "filename": "glazer-et-al-2016-systematic-review-and-case-series-report-of-acinar-cell-carcinoma-of-the-pancreas.pdf",
+    "title": "Systematic Review and Case Series Report of Acinar Cell Carcinoma of the Pancreas",
+    "publication_year": 2016,
+    "population": {
+      "cancer_type": "Acinar cell carcinoma of the pancreas",
+      "disease_stage": "Case series: Stages II (33%), III (24%), and IV (43%); no patients with Stage I. Systematic review: 52% of patients had Stage I/II disease.",
+      "patient_age_range": "Mean 63.5 years (SD 14.1 years) for case series; median 61 years for systematic review",
+      "sex_distribution": "Case series: 76% male, 24% female. Systematic review: 66% male.",
+      "comorbidities_summary": null,
+      "prior_treatments_summary": "Not explicitly detailed, but 62% of case series patients were initially diagnosed elsewhere."
+    },
+    "design": {
+      "study_type": "Case Series",
+      "sample_size": 21,
+      "intervention": "For the case series (N=21), patients received various treatments including surgical resection (Whipple, distal/total pancreatectomy), neoadjuvant/adjuvant chemotherapy (gemcitabine-based, fluoropyrimidine-based like FOLFOX/FOLFIRI), and radiotherapy (SBRT). The systematic review (N=68 patients from 6 articles) assessed typical therapeutic management approaches (chemotherapy and radiotherapy).",
+      "comparator": "Within the case series, comparisons were made between groups receiving surgery vs. no surgery, radiotherapy vs. no radiotherapy, and chemotherapy vs. no chemotherapy. The systematic review compared different therapeutic approaches across studies.",
+      "primary_endpoint": "Overall survival and disease control rates.",
+      "secondary_endpoints": [
+        "Median survival rates",
+        "1- and 5-year survival rates",
+        "Association of treatments (surgery, RT, chemotherapy) with survival rates"
+      ],
+      "followup_duration": "Median 1.2 years (range, 1 month to 6.5 years) for the case series."
+    },
+    "results": {
+      "primary_result_text": "In the case series, median survival was 40.2 \u00b1 31.9 months for patients undergoing surgery with adjuvant therapy and 13.8 \u00b1 11.3 months for those with metastatic disease. Surgery (P < .001) and radiotherapy (P = .008) were significantly associated with improved survival, while chemotherapy was not (P = .09). Patients receiving resection followed by adjuvant radiotherapy had the longest survival. The systematic review found median survival rates of 47 months for resection with adjuvant therapy, 38 months for nonmetastatic unresectable disease, and 17 months for metastatic disease with chemotherapy. Fluoropyrimidine-based regimens showed better disease control.",
+      "primary_result_numeric": "Case series median survival: surgery + adjuvant therapy: 40.2 months; metastatic disease: 13.8 months. Case series 1-year survival: 67%; 5-year survival: 5%.",
+      "safety_profile_summary": null,
+      "limitations_summary": "Rarity of malignancy limited prospective studies and large case-control studies. Retrospective nature of the review limits interpretation. Tumor time to progression was based on imaging schedules, not predefined time points, potentially introducing institutional bias. Low number of patients in the non-chemotherapy group for analysis."
+    },
+    "predicted_reliability": "Low"
+  },
+  {
     "filename": "PATINA_Pfizer.pdf",
     "title": "Pfizer\u2019s IBRANCE\u00ae in Combination with Standard-of-Care Therapies Extends Median Progression-Free Survival by Over 15 Months in Phase 3 PATINA Study in Patients with HR+, HER2+ Metastatic Breast Cancer",
     "publication_year": 2024,
     "population": {
       "cancer_type": "Hormone receptor-positive (HR+), human epidermal growth factor receptor 2-positive (HER2+) metastatic breast cancer (MBC)",
-      "disease_stage": "Metastatic",
+      "disease_stage": "Metastatic breast cancer",
       "patient_age_range": null,
       "sex_distribution": null,
       "comorbidities_summary": null,
-      "prior_treatments_summary": "First-line maintenance therapy following induction chemotherapy; previously treated with anti-HER2 therapy"
+      "prior_treatments_summary": "Following induction chemotherapy treatment"
     },
     "design": {
       "study_type": "RCT",
       "sample_size": 518,
-      "intervention": "IBRANCE\u00ae (palbociclib) in combination with anti-HER2 therapy (trastuzumab or trastuzumab plus pertuzumab) and endocrine therapy",
-      "comparator": "Anti-HER2 therapy (trastuzumab or trastuzumab plus pertuzumab) and endocrine therapy alone",
+      "intervention": "IBRANCE\u00ae (palbociclib) in combination with anti-HER2 therapy (trastuzumab or trastuzumab plus pertuzumab) and endocrine therapy as first-line maintenance therapy",
+      "comparator": "Anti-HER2 therapy and endocrine therapy alone as first-line maintenance therapy",
       "primary_endpoint": "Progression-free survival (PFS) as assessed by the investigator",
       "secondary_endpoints": [
         "Overall survival"
@@ -23,44 +221,78 @@
       "followup_duration": null
     },
     "results": {
-      "primary_result_text": "The addition of IBRANCE\u00ae (palbociclib) to current standard-of-care first-line maintenance therapy resulted in statistically significant and clinically meaningful improvement in progression-free survival (PFS) by investigator assessment, extending median PFS by over 15 months.",
-      "primary_result_numeric": "Median PFS was 44.3 months (95% CI: 32.4-60.9) for patients treated with IBRANCE in combination, and 29.1 months (95% CI: 23.3-38.6) for patients treated with anti-HER2 therapy and endocrine therapy alone [HR: 0.74 (95% CI, 0.58-0.94); unstratified 1-sided p= 0.0074].",
-      "safety_profile_summary": "The safety and tolerability of IBRANCE in the PATINA study were consistent with its known safety profile in HR+, HER2- MBC, with no new safety signals identified. Common adverse events were hematologic toxicities, such as neutropenia and leukopenia. Non-hematologic adverse events included fatigue, stomatitis, and diarrhea, generally mild to moderate in severity. Across previous trials (PALOMA-1, -2, -3), ILD/pneumonitis of any grade occurred in 1.0% of IBRANCE-treated patients.",
-      "limitations_summary": "Overall survival, a secondary endpoint, was not yet mature at the time of the analysis."
+      "primary_result_text": "Median PFS was 44.3 months (95% CI: 32.4-60.9) for patients treated with IBRANCE in combination with anti-HER2 therapy and endocrine therapy, and 29.1 months (95% CI: 23.3-38.6) for patients treated with anti-HER2 therapy and endocrine therapy alone. This represents an extension in median PFS of over 15 months.",
+      "primary_result_numeric": "HR: 0.74 (95% CI, 0.58-0.94); unstratified 1-sided p= 0.0074",
+      "safety_profile_summary": "The safety and tolerability of IBRANCE in the PATINA study was consistent with its known safety profile in HR+, HER2- MBC, and no new safety signals were identified. The most common adverse events observed with IBRANCE were hematologic toxicities, such as neutropenia and leukopenia. Non-hematologic adverse events included fatigue, stomatitis and diarrhea, which were generally mild to moderate in severity.",
+      "limitations_summary": null
     },
     "predicted_reliability": "High"
   },
   {
-    "filename": "E1910_NICE.pdf",
-    "title": "Blinatumomab with chemotherapy for consolidation treatment of Philadelphia -chromosome -negative CD19-positive B -precursor acute lymphoblastic leukaemia with no measurable residual disease [ID6405]",
-    "publication_year": 2025,
+    "filename": "jgo-15-06-2728.pdf",
+    "title": "Cancer metastasis to the upper gastrointestinal tract\u2014a case series",
+    "publication_year": 2024,
     "population": {
-      "cancer_type": "Philadelphia-chromosome-negative (Ph-negative) CD19-positive B-precursor acute lymphoblastic leukaemia (ALL)",
-      "disease_stage": "No measurable residual disease (MRD-negative) at the start of the consolidation phase, newly diagnosed",
-      "patient_age_range": "Adults aged 30 to 70 years",
-      "sex_distribution": null,
-      "comorbidities_summary": null,
-      "prior_treatments_summary": "Pre-phase chemotherapy + steroids +/- rituximab, followed by induction/intensification chemotherapy. Study focuses on consolidation treatment."
+      "cancer_type": "Renal clear cell carcinoma, non-small cell lung cancer, prostate cancer, melanoma",
+      "disease_stage": "Metastatic (to the upper gastrointestinal tract and other distant sites)",
+      "patient_age_range": "48-76 years",
+      "sex_distribution": "All male",
+      "comorbidities_summary": "Atrial fibrillation with ischemic stroke (on warfarin), pulmonary embolism (on anticoagulants), end-stage renal failure, hospital-acquired pneumonia, acute cholangitis",
+      "prior_treatments_summary": "Nephrectomy, partial nephrectomy, melanoma excision, chemotherapy, radiotherapy, tyrosine kinase inhibitors (sunitinib, cabozantinib, lenvatinib, everolimus), immunotherapy (pembrolizumab, nivolumab/ipilimumab)"
     },
     "design": {
-      "study_type": "RCT",
-      "sample_size": 224,
-      "intervention": "Blinatumomab (4 cycles, each cycle = 28 mcg daily over 28 days + 14 days rest) plus standard of care consolidation chemotherapy (4 cycles)",
-      "comparator": "Standard of care consolidation chemotherapy alone (4 cycles), including cytarabine, etoposide, methotrexate, rituximab (if CD20+), pegaspargase (Cycles 1, 2 and 4), and daunorubicin, vincristine, dexamethasone, methotrexate, cyclophosphamide, cytarabine, 6-mercaptopurine, rituximab (if CD20+) (Cycle 3).",
-      "primary_endpoint": "Overall survival (OS)",
-      "secondary_endpoints": [
-        "Relapse-free survival (RFS)",
-        "Adverse events (AEs)"
-      ],
-      "followup_duration": "Ongoing; 10-year follow-up from the start of induction treatment"
+      "study_type": "Case Series",
+      "sample_size": 7,
+      "intervention": "Gastroscopy, biopsy, surgical resection (distal gastrectomy, endoscopic mucosal resection, bowel resection and anastomosis, surgery for omental metastasis), endoscopic adrenaline injection and clipping, argon plasma coagulation, targeted therapies (nivolumab/ipilimumab), angiographic embolization, laparotomy and oversewing of duodenal ulcer",
+      "comparator": null,
+      "primary_endpoint": "To present cases highlighting clinical manifestations, complications, and management of upper GI tract metastasis from non-GI cancers",
+      "secondary_endpoints": null,
+      "followup_duration": "Variable, with individual patient follow-up ranging from a few months to 10 years, and the retrospective series spanning 2016-2024. One patient was followed for 12 months post-intervention."
     },
     "results": {
-      "primary_result_text": "Trial results (E1910) suggest a step change improvement in overall survival and cure rates with blinatumomab. Clinical experts consider survival-linked improvements in Ph-negative ALL after blinatumomab consolidation to be clinically meaningful.",
-      "primary_result_numeric": null,
-      "safety_profile_summary": "Blinatumomab is reported as well tolerated compared to chemotherapy. Patients expressed willingness to accept additional side effects for survival benefit. Adverse events were a secondary outcome.",
-      "limitations_summary": "Limitations include the exclusion of adults aged <30 years from the E1910 trial, differences in measurable/minimal residual disease thresholds, and uncertainty around long-term overall survival and relapse-free survival. Other considerations involve the need for additional treatment centres and training, additional MRD testing, and differences in MRD assessment technologies compared to those utilised in the UK."
+      "primary_result_text": "Seven cases of non-gastrointestinal (non-GI) cancers metastasizing to the upper GI tract are discussed. Patients presented with diverse patterns of metastasis and complications, including upper GI bleeding, melaena, bowel perforation, abdominal pain, and weight loss. Management involved various interventions from endoscopy to surgery, with outcomes ranging from disease control to progression, palliative care, and fatality. The series highlights the importance of early recognition, interdisciplinary management, and personalized strategies due to the rare and complex nature of these metastases.",
+      "primary_result_numeric": "7 cases",
+      "safety_profile_summary": "Significant complications observed included severe upper GI bleeding (fatal in some cases), melaena, bowel perforation, abdominal pain, weight loss, hospital-acquired pneumonia, end-stage renal failure, septic shock secondary to acute cholangitis, and ischemic bowel. Fatal outcomes were noted in several cases due to disease progression or complications.",
+      "limitations_summary": "The primary limitation is the small sample size, which is inherent to a case series, limiting generalizability."
     },
-    "predicted_reliability": "High"
+    "predicted_reliability": "Low"
+  },
+  {
+    "filename": "s13014-024-02559-7.pdf",
+    "title": "Stereotactic body radiotherapy as metastasis-directed therapy in oligometastatic prostate cancer: a systematic review and meta-analysis of randomized controlled trials",
+    "publication_year": 2024,
+    "population": {
+      "cancer_type": "Oligometastatic prostate cancer (OMPC)",
+      "disease_stage": "Oligometastatic (1-5 progressing metastases), extracranial OMPC, including metachronous oligorecurrence or oligoprogression",
+      "patient_age_range": null,
+      "sex_distribution": null,
+      "comorbidities_summary": null,
+      "prior_treatments_summary": "Some trials included patients with castration-resistant disease; some trials investigated or allowed systemic therapy (e.g., ADT, abiraterone acetate, prednisone)."
+    },
+    "design": {
+      "study_type": "Meta-Analysis",
+      "sample_size": 559,
+      "intervention": "Stereotactic body radiotherapy (SBRT) as metastasis-directed therapy (MDT)",
+      "comparator": "No MDT, standard of care (SOC), placebo, no treatment, or radiotherapy with lower intensity than the intervention group",
+      "primary_endpoint": "Overall survival and incidence proportion of grade \u2265 3 toxicity",
+      "secondary_endpoints": [
+        "Progression-free survival (PFS)",
+        "Local control",
+        "Incidence proportion of grade 5 toxicity",
+        "Health-related quality of life (HRQoL)",
+        "Systemic therapy-free survival",
+        "Local PFS",
+        "Distant PFS"
+      ],
+      "followup_duration": "Up to 5 years or longest follow-up reported by individual studies (without restrictions on follow-up time for eligible studies)"
+    },
+    "results": {
+      "primary_result_text": "A meta-analysis for overall survival was not possible because only one out of three trials reported events in both arms, and overall survival comparisons were immature. The pooled results for incidence proportion of grade \u2265 3 toxicity from two trials showed no difference between groups.",
+      "primary_result_numeric": "Grade \u2265 3 toxicity: pooled risk ratio 0.78 (95% CI 0.37\u20131.65, p = 0.52). Overall survival: meta-analysis not possible.",
+      "safety_profile_summary": "Phase II trials have shown promising improvements in PFS for several OMPC states without excess toxicity. No significant difference in grade \u2265 3 toxicity was found between SBRT and control groups. Statistical heterogeneity was not detected for toxicity outcomes.",
+      "limitations_summary": "Risk of bias was of some concerns or high in included studies, and the quality of evidence was low or moderate. Overall survival comparisons are immature. Outcome definitions were heterogeneous except for overall survival and toxicity. Limitations included small sample sizes in individual phase II trials, lack of blinding for outcome assessors, and potential for variable adherence to assigned interventions."
+    },
+    "predicted_reliability": "Medium"
   },
   {
     "filename": "PALOMA-2_FDA.pdf",
@@ -77,83 +309,714 @@
     "design": {
       "study_type": "RCT",
       "sample_size": 165,
-      "intervention": "Palbociclib in combination with letrozole",
-      "comparator": "letrozole alone",
+      "intervention": "Palbociclib in combination with letrozole (P+L)",
+      "comparator": "letrozole alone (L)",
       "primary_endpoint": "investigator-assessed progression free survival (PFS)",
       "secondary_endpoints": [
-        "Overall Survival",
-        "Overall Response Rate"
+        "overall survival (OS)",
+        "overall response rate (ORR)"
       ],
-      "followup_duration": "Until disease progression or toxicity (treatment period); Overall Survival until study end (follow-up period)"
+      "followup_duration": "Until disease progression or toxicity for treatment, OS until study end"
     },
     "results": {
-      "primary_result_text": "The primary analysis demonstrated a hazard ratio of 0.488 with a 20.2 month median PFS time in the Palbociclib + letrozole arm and 10.2 month median PFS time in the letrozole arm (investigator-assessed). A blinded independent committee review (BICR) of PFS found a hazard ratio of 0.621 with a 25.7 month median PFS time in the Palbociclib + letrozole arm and 14.8 month median PFS time in the letrozole arm.",
-      "primary_result_numeric": "0.488",
+      "primary_result_text": "The primary analysis in PALOMA-1 was investigator assessed progression free survival (PFS). The results demonstrated a hazard ratio of 0.488 with a 20.2 month median PFS time in the Palbociclib + letrozole arm and 10.2 month median PFS time in the letrozole arm. A blinded independent committee review (BICR) of PFS found a hazard ratio of 0.621 with a 25.7 month median PFS time in the Palbociclib + letrozole arm and 14.8 month median PFS time in the letrozole arm.",
+      "primary_result_numeric": "Investigator Assessed PFS: HR=0.488, median PFS Palbociclib+letrozole=20.2 months, median PFS letrozole=10.2 months",
       "safety_profile_summary": null,
-      "limitations_summary": "PALOMA-1 was not designed to be a registrational trial and had several flaws of execution, including data-driven amendments to the statistical analysis plan (e.g., splitting and recombining study parts). The BICR PFS analysis was inconsistent with investigator assessment, demonstrating some evidence of investigator bias towards the treatment arm. Due to these issues, the magnitude of benefit is unclear and uncertain."
+      "limitations_summary": "PALOMA-1 was not designed to be a registrational trial, and had several flaws of execution. The study also had several data-driven amendments to the statistical analysis plan, including splitting the study into two parts and then recombining them. The BICR PFS analysis demonstrated some evidence of investigator bias towards the treatment arm. Due to these issues, the magnitude of benefit is unclear and uncertain."
     },
     "predicted_reliability": "High"
+  },
+  {
+    "filename": "novello-et-al-2023-pembrolizumab-plus-chemotherapy-in-squamous-non-small-cell-lung-ca.pdf",
+    "title": "Pembrolizumab Plus Chemotherapy in Squamous Non \u2013Small-Cell Lung Cancer: 5-Year Update of the Phase III KEYNOTE-407 Study",
+    "publication_year": 2023,
+    "population": {
+      "cancer_type": "Metastatic Squamous Non-Small-Cell Lung Cancer (NSCLC)",
+      "disease_stage": "Previously untreated, stage IV squamous NSCLC",
+      "patient_age_range": "29-88 years (median 65.0 years)",
+      "sex_distribution": "Male: 81.4%, Female: 18.6%",
+      "comorbidities_summary": "Brain metastases were present in 7.2% of the pembrolizumab group and 8.2% of the placebo group.",
+      "prior_treatments_summary": "Patients were previously untreated for metastatic disease. A small percentage had prior thoracic radiotherapy (6.1-7.8%) or neoadjuvant/adjuvant therapy (1.8-2.8%)."
+    },
+    "design": {
+      "study_type": "RCT",
+      "sample_size": 559,
+      "intervention": "Pembrolizumab 200 mg plus carboplatin and paclitaxel/nab-paclitaxel for four cycles, followed by pembrolizumab for up to 35 cycles.",
+      "comparator": "Placebo plus carboplatin and paclitaxel/nab-paclitaxel for four cycles, followed by placebo for up to 35 cycles.",
+      "primary_endpoint": "Overall Survival (OS) and Progression-Free Survival (PFS) per RECIST version 1.1 by blinded independent central review (BICR).",
+      "secondary_endpoints": [
+        "Objective Response Rate (ORR)",
+        "Duration of Response (DOR)",
+        "Safety",
+        "PFS2 (time from random assignment to subsequent PD after next line of treatment or death from any cause)"
+      ],
+      "followup_duration": "Approximately 5 years (median 56.9 months, range 49.9-66.2 months)."
+    },
+    "results": {
+      "primary_result_text": "OS and PFS were improved with pembrolizumab plus chemotherapy versus placebo plus chemotherapy (HR [95% CI], 0.71 [0.59 to 0.85] and 0.62 [0.52 to 0.74]). Estimated 5-year OS rates were 18.4% versus 9.7%, respectively. Estimated 5-year PFS rates were 10.8% versus 3.5%, respectively.",
+      "primary_result_numeric": "Overall Survival (OS): HR 0.71 (95% CI 0.59-0.85); 5-year OS rates: 18.4% (pembrolizumab + chemo) vs 9.7% (placebo + chemo). Progression-Free Survival (PFS): HR 0.62 (95% CI 0.52-0.74); 5-year PFS rates: 10.8% (pembrolizumab + chemo) vs 3.5% (placebo + chemo).",
+      "safety_profile_summary": "Toxicity was manageable and consistent with prior reports. In the as-treated population (pembrolizumab + chemotherapy, n=278; placebo + chemotherapy, n=280), 98.6% and 98.2% experienced an AE (grade 3-5, 74.8% vs 70.0%). No new treatment-related deaths were reported. Immune-mediated AEs and infusion reactions occurred in 35.6% (grade 3-5, 13.3%) and 9.3% (grade 3-5, 3.2%) of patients in the pembrolizumab plus chemotherapy group, respectively.",
+      "limitations_summary": "A limited number of patients were at risk at 5 years. A high crossover rate (50.9%) to subsequent anti-PD-(L)1 therapy in the placebo group likely attenuated the differences in OS HR between treatment groups in later analyses, particularly for patients with PD-L1 TPS \u22651%. The treatment effect was less pronounced for patients with PD-L1 TPS <1%, where the 95% CI for HR contained 1."
+    },
+    "predicted_reliability": "High"
+  },
+  {
+    "filename": "e007586.full.pdf",
+    "title": "Multicenter randomized controlled trial of neoadjuvant chemoradiotherapy alone or in combination with pembrolizumab in patients with resectable or borderline resectable pancreatic adenocarcinoma",
+    "publication_year": 2023,
+    "population": {
+      "cancer_type": "Pancreatic ductal adenocarcinoma (PDAC)",
+      "disease_stage": "Resectable or borderline resectable",
+      "patient_age_range": "53-85 years (median 66 years)",
+      "sex_distribution": "Male: 19 (51%), Female: 18 (49%)",
+      "comorbidities_summary": null,
+      "prior_treatments_summary": "No prior surgery, chemotherapy, targeted small-molecule therapy, immunotherapy, or radiation therapy for pancreatic cancer. (Describes 37 patients enrolled prior to amendment)"
+    },
+    "design": {
+      "study_type": "RCT",
+      "sample_size": 37,
+      "intervention": "Arm A: Pembrolizumab plus chemoradiotherapy (capecitabine and external beam radiation)",
+      "comparator": "Arm B: Chemoradiotherapy alone (capecitabine and external beam radiation)",
+      "primary_endpoint": "(1) Incidence and severity of adverse events during neoadjuvant therapy, and (2) density of tumor-infiltrating lymphocytes (TILs) in resected tumor specimens.",
+      "secondary_endpoints": [
+        "Treatment effect",
+        "Progression-free survival (PFS)",
+        "Recurrence-free survival (RFS)",
+        "Overall survival (OS)"
+      ],
+      "followup_duration": "24 months post-registration"
+    },
+    "results": {
+      "primary_result_text": "Adding pembrolizumab to neoadjuvant chemoradiotherapy was safe. Grade \u22653 adverse events related to neoadjuvant treatment were experienced by 9 (38%) patients in Arm A and 4 (31%) patients in Arm B. Only one patient in Arm A experienced a dose-limiting toxicity. However, no convincing effect on CD8+ TILs was observed, with median CD8+ T-cell densities of 67.4 cells/mm2 in Arm A and 37.9 cells/mm2 in Arm B. No noticeable differences were found in the density of other immune cell types.",
+      "primary_result_numeric": "Grade \u22653 AEs: Arm A: 9 (38%), Arm B: 4 (31%). Median CD8+ T-cell densities: Arm A: 67.4 cells/mm2 (IQR: 39.2\u2013141.8), Arm B: 37.9 cells/mm2 (IQR: 22.9\u2013173.4).",
+      "safety_profile_summary": "Adding pembrolizumab to neoadjuvant chemoradiotherapy was safe. Grade \u22653 adverse events related to neoadjuvant treatment occurred in 9 (38%) patients in Arm A and 4 (31%) patients in Arm B. One patient in Arm A experienced a dose-limiting toxicity (grade 3 elevation of alanine aminotransferase).",
+      "limitations_summary": "The study experienced slow enrollment, leading to early termination and only 37 patients randomized out of a target of 68 (45 evaluable). This resulted in the study being underpowered for direct comparisons between arms for immunologic effects, and the observed variability in CD8+ TILs was larger and more skewed than assumed."
+    },
+    "predicted_reliability": "Medium"
   },
   {
     "filename": "Personalized_Oncology_Meta_PLOS.pdf",
     "title": "Personal approach for cancer treatment: A meta-analysis of Phase II clinical trials",
     "publication_year": 2025,
     "population": {
-      "cancer_type": "Various cancer types amenable to personalized genomics-based treatment (meta-analysis across oncology)",
-      "disease_stage": "Includes advanced and metastatic disease stages (implied by pre-treated patients and later lines of therapy)",
-      "patient_age_range": "Adults (18-85 years old)",
+      "cancer_type": "General cancer types",
+      "disease_stage": null,
+      "patient_age_range": "18-85 years old",
       "sex_distribution": null,
       "comorbidities_summary": null,
-      "prior_treatments_summary": "Included both pre-treated and treatment-na\u00efve patients; pre-treatment negatively affected PFS outcomes."
+      "prior_treatments_summary": "Mixed (pre-treated and treatment-na\u00efve patients included across studies)"
     },
     "design": {
       "study_type": "Meta-Analysis",
       "sample_size": 6536,
-      "intervention": "Personalized genomics-based cancer drug therapy (including targeted therapy, immunotherapy, and chemotherapy)",
-      "comparator": "Non-personalized cancer drug treatment",
-      "primary_endpoint": "Response Rate (RR)",
+      "intervention": "Personalized genomics-based cancer drug therapy",
+      "comparator": "Non-personalized cancer drug therapy",
+      "primary_endpoint": "Response Rate (RR), Progression-Free Survival (PFS), Overall Survival (OS)",
       "secondary_endpoints": [
         "1-year Progression-Free Survival (PFS) rates",
-        "Progression-Free Survival (PFS) medians",
         "1-year Overall Survival (OS) rates",
-        "Overall Survival (OS) medians"
+        "PFS median",
+        "OS median"
       ],
-      "followup_duration": "Variable across studies, with 1-year rates reported for PFS and OS"
+      "followup_duration": null
     },
     "results": {
-      "primary_result_text": "Personalized genomics-based cancer drug treatment significantly improved Response Rate (RR), 1-year Progression-Free Survival (PFS) rates, and 1-year Overall Survival (OS) rates. Medians of PFS and OS were also higher in personalized arms compared to non-personalized treatment.",
-      "primary_result_numeric": "Personalized treatment significantly improved RR (p=0.037), 1-year PFS (p=0.043), and 1-year OS rates (p=0.022) based on meta-regression. Medians of PFS (p=0.015) and OS (p=0.032) were also significantly higher in personalized studies based on Mann-Whitney test.",
+      "primary_result_text": "Personalized genomics-based cancer drug treatment was associated with significantly higher Response Rate (RR) and 1-year Progression-Free Survival (PFS). Medians of PFS and Overall Survival (OS) were also significantly higher in personalized arms. Personalized treatment significantly improved outcomes regardless of therapy type (chemotherapy, targeted therapy, or immunotherapy).",
+      "primary_result_numeric": "Personalized arms showed significantly higher RR (p=0.037), 1-year PFS (p=0.043), and 1-year OS rates (p=0.022) compared to non-personalized arms. Medians of PFS (p=0.018) and OS (p=0.032) were also higher in personalized arms.",
       "safety_profile_summary": null,
-      "limitations_summary": "High heterogeneity rates for RR, PFS, and OS across included studies, potentially due to diverse cancers, disease stages, and treatments. Median meta-analysis was less accurate and powerful compared to proportional meta-analysis due to lack of additional data. Diverse sampling approaches in different studies."
+      "limitations_summary": "High between-study heterogeneity variance for RR, PFS, and OS, which may be associated with different absolute metrics of outcomes for various cancers, disease stages, and treatments. Limitations also include diverse sampling approaches in different studies, and the less accurate and powerful nature of median meta-analysis without additional data compared to proportional meta-analysis."
     },
     "predicted_reliability": "Medium"
   },
   {
-    "filename": "DREAMseq_Results.pdf",
-    "title": "EA6134 (DREAMseq) Clinical Trial Results Summary: Testing the Therapy Sequence for Advanced BRAF Mutation Melanoma",
-    "publication_year": 2023,
+    "filename": "s12906-022-03537-w.pdf",
+    "title": "Complementary and alternative medicine modalities used to treat adverse effects of anti- cancer treatment among children and young adults: a systematic review and meta-analysis of randomized controlled trials",
+    "publication_year": 2022,
     "population": {
-      "cancer_type": "Advanced melanoma with BRAF gene mutation",
-      "disease_stage": "Stage III or IV unresectable melanoma",
-      "patient_age_range": null,
+      "cancer_type": "Various cancers in children and young adults (e.g., acute leukemia, brain tumors, lymphomas, bone and soft tissue sarcomas, germ cell tumors, solid tumors)",
+      "disease_stage": "Patients undergoing conventional cancer treatment",
+      "patient_age_range": "0-21 years",
       "sex_distribution": null,
+      "comorbidities_summary": "Not specified for the overall population across all included studies; individual study exclusion criteria included low platelet count, bleeding disorder, hemoglobin levels < 9 g/dl, hematocrit < 30, active treatment for anemia, or prior gastrointestinal diseases.",
+      "prior_treatments_summary": "Conventional cancer treatment, primarily chemotherapy"
+    },
+    "design": {
+      "study_type": "Meta-Analysis",
+      "sample_size": 1069,
+      "intervention": "CAM modalities (acupuncture, mind-body therapies, supplements, vitamins, hypnosis) to treat adverse effects of conventional cancer treatment",
+      "comparator": "Conventional medicine, usual care, waiting list, other CAM modalities, and placebo (e.g., sham acupuncture, sham bands, sham herbs/supplements)",
+      "primary_endpoint": "Reduction/improvement of adverse effects of conventional anti-cancer treatment, with a specific focus on chemotherapy-induced nausea and vomiting (CINV) for the meta-analysis",
+      "secondary_endpoints": [
+        "Oral mucositis",
+        "Anxiety",
+        "Cancer-related fatigue (CRF)",
+        "Hepatotoxicity",
+        "Fever",
+        "Prevention of infection",
+        "Stress",
+        "Quality of life"
+      ],
+      "followup_duration": null
+    },
+    "results": {
+      "primary_result_text": "Current evidence from this meta-analysis of randomized controlled trials shows that CAM, including acupuncture and hypnosis only, is effective in reducing chemotherapy-induced nausea and vomiting in children and young adults.",
+      "primary_result_numeric": "The overall effect of CAM (acupuncture and hypnosis) on chemotherapy-induced nausea and/or vomiting (CINV) and controls was statistically significant with a standard mean difference (SMD) of -0.54 (95% CI [-0.77, -0.31], I2 = 0%, p < 0.00001). For acupuncture and controls, the SMD was -0.59 (95% CI [-0.85, -0.33], p < 0.00001) for CINV intensity and/or episodes. No significant difference was found between hypnosis and controls for CINV severity or episodes (SMD -0.41, 95% CI [-1.09, 0.27], I2 = 41%, p = 0.19).",
+      "safety_profile_summary": "Adverse effects reported from CAM modalities were generally minor and transient, such as pain from needling (acupuncture) or bands being too tight (acupressure). No serious adverse effects were reported across the included studies.",
+      "limitations_summary": "Sparse research on the effectiveness of CAM modalities used to alleviate adverse effects of conventional cancer treatment in children and young adults. The meta-analysis was limited to acupuncture and hypnosis. More rigorous trials and investigations into long-term effects are needed. Some included studies did not report power calculations or did not reach sufficient power."
+    },
+    "predicted_reliability": "Medium"
+  },
+  {
+    "filename": "1-s2.0-S1877782120301910-main.pdf",
+    "title": "Incidence of radiation induced sarcoma attributable to radiotherapy in adults: A retrospective cohort study in the SEER cancer registries across 17 primary tumor sites",
+    "publication_year": 2021,
+    "population": {
+      "cancer_type": "Abdomen, Anal, Brain, Breast, Cervical, Eye, Head, Larynx, Lung, Pelvis, Pharynx, Prostate, Rectal, Salivary, Testicular, Thorax, Thyroid, Uterine cancers",
+      "disease_stage": "Local or regional SEER historic stage",
+      "patient_age_range": "18 years or older (mean age 60 years)",
+      "sex_distribution": "57.3% Female",
       "comorbidities_summary": null,
-      "prior_treatments_summary": null
+      "prior_treatments_summary": "Radiotherapy (external beam, radioactive implants, radioisotopes, NOS method, combination radiotherapy, or other) for primary cancer"
+    },
+    "design": {
+      "study_type": "Retrospective",
+      "sample_size": 1884469,
+      "intervention": "Radiotherapy for primary cancer",
+      "comparator": "Non-breast cancer sites (17 other primary cancer sites)",
+      "primary_endpoint": "Relative risk of radiation-induced sarcoma (RIS) in breast cancer patients compared to other solid cancers",
+      "secondary_endpoints": [
+        "Incidence of secondary sarcoma",
+        "Patient demographics and cancer characteristics",
+        "Latency period to RIS development"
+      ],
+      "followup_duration": "9.4 years (mean)"
+    },
+    "results": {
+      "primary_result_text": "The relative risk (RR) of radiation-induced sarcoma (RIS) in breast cancer versus 17 other primary cancer sites was 1.21 (95% CI: 1.01 \u20131.45, p=0.03), adjusted for age at primary diagnosis, gender, and latency. Breast cancer comprised 36.8% of patients, of which 0.02% developed secondary sarcoma, with 126 cases of RIS.",
+      "primary_result_numeric": "RR=1.21 (95% CI: 1.01-1.45, p=0.03)",
+      "safety_profile_summary": "An overall RIS rate of 0.02% was observed for breast cancer patients. RIS is a rare iatrogenic malignancy with a poor prognosis, exhibiting 5-year overall-free survival rates ranging from 32% to 58% compared to sporadic soft tissue sarcomas.",
+      "limitations_summary": "The SEER database does not record germline mutations (e.g., Li-Fraumeni, retinoblastoma, Nijmegen breakage syndrome, BRCA1, p53) and lacks fine detail on radiation doses and techniques, which could not be controlled for in the analysis."
+    },
+    "predicted_reliability": "Medium"
+  },
+  {
+    "filename": "s00520-024-08442-1.pdf",
+    "title": "Randomized controlled trial of an app for cancer pain management",
+    "publication_year": 2024,
+    "population": {
+      "cancer_type": "Esophageal, gastric, colorectal, nasopharyngeal, pulmonary, pancreatic, breast, ovarian, uterine, bone, thoracic, bladder, cervical, soft tissue sarcoma, mediastinal, and lymphoma cancer pain.",
+      "disease_stage": "Pain directly caused by primary and/or metastatic tumors or tumor treatment, conforming to NCCN Clinical Practice Guidelines on Adult Cancer Pain (2019.V3).",
+      "patient_age_range": "18 to 75 years (mean control: 49.85 \u00b1 9.74 years; mean trial: 52.12 \u00b1 8.95 years)",
+      "sex_distribution": "Female: 60 (62.5%); Male: 36 (37.5%) out of 96 patients.",
+      "comorbidities_summary": "Exclusion criteria included severe cognitive impairment, severe hepatic insufficiency (ALT \u2265 2.5 \u00d7 ULN, AST \u2265 2.5 \u00d7 ULN, TBIL \u2265 1.5 \u00d7 ULN), severe renal insufficiency (Cr \u2265 2.5 \u00d7 ULN).",
+      "prior_treatments_summary": "Patients were excluded if participating in other clinical trials or treatments that may have affected this study. No specific summary of prior cancer treatments provided beyond having cancer pain."
     },
     "design": {
       "study_type": "RCT",
-      "sample_size": 300,
-      "intervention": "Immunotherapy drugs (nivolumab and ipilimumab) followed by targeted therapy drugs (dabrafenib and trametinib)",
-      "comparator": "Targeted therapy drugs (dabrafenib and trametinib) followed by immunotherapy drugs (nivolumab and ipilimumab)",
-      "primary_endpoint": "Two-year survival",
-      "secondary_endpoints": [],
-      "followup_duration": "2 years"
+      "sample_size": 96,
+      "intervention": "Patients used a mobile application ('Pain Guardian') for self-management of cancer pain, including features like pain self-measurement, patient reminders, uploading examination reports, online consultation, and health education.",
+      "comparator": "Patients received conventional follow-up procedures, specifically telephone consultations.",
+      "primary_endpoint": "Enhancement of patients\u2019 overall well-being and quality of life.",
+      "secondary_endpoints": [
+        "Patient satisfaction with the app",
+        "Medication compliance (ratio of actual to theoretical analgesic drug consumption)"
+      ],
+      "followup_duration": "4 weeks"
     },
     "results": {
-      "primary_result_text": "Patients did better with a treatment sequence that began with the immunotherapy drugs and was followed, if needed, by the targeted therapy drugs. This sequence is established as the preferred treatment approach for the vast majority of patients with advanced melanoma that has a BRAF gene mutation.",
-      "primary_result_numeric": "20% increase in two-year survival in the group that received immunotherapy first, compared with the group that received targeted therapy first.",
-      "safety_profile_summary": null,
-      "limitations_summary": null
+      "primary_result_text": "After 4 weeks of intervention, quality of life was significantly higher in the trial group compared to the control group. Specifically, the trial group showed higher scores in emotional, cognitive, and social functioning, as well as overall health (P < 0.05). Conversely, the trial group demonstrated lower scores (indicating less severity) in pain, constipation, nausea and vomiting, and insomnia compared to the control group (P < 0.05).",
+      "primary_result_numeric": "Global health/quality of life (P < 0.001); Emotional functioning (P = 0.003); Cognitive functioning (P < 0.001); Social functioning (P = 0.01); Pain (P < 0.001); Nausea/vomiting (P < 0.001); Constipation (P < 0.001); Insomnia (P < 0.001).",
+      "safety_profile_summary": "No specific adverse events attributed directly to the app were reported. The app's usage was noted to be helpful in reducing the occurrence of adverse reactions commonly associated with cancer pain management, such as constipation, nausea, vomiting, and insomnia.",
+      "limitations_summary": "The primary obstacle in app development was the sensitive nature of cancer pain, potentially causing patient apprehension. The conclusion section was truncated, but implied a need for 'further research with larger sa[mple size]'."
+    },
+    "predicted_reliability": "Medium"
+  },
+  {
+    "filename": "1-s2.0-S2213260018305009-main.pdf",
+    "title": "Pembrolizumab in patients with advanced non-small-cell lung cancer (KEYNOTE-001): 3-year results from an open-label, phase 1 study",
+    "publication_year": 2019,
+    "population": {
+      "cancer_type": "Non-small-cell lung cancer",
+      "disease_stage": "Locally advanced or metastatic non-small-cell lung cancer with measurable disease at baseline",
+      "patient_age_range": "Median age: 68 years (IQR 59\u201374) for treatment naive; 62 years (IQR 54\u201369) for previously treated",
+      "sex_distribution": "Treatment naive: 59% Men, 41% Women; Previously treated: 51% Men, 49% Women",
+      "comorbidities_summary": null,
+      "prior_treatments_summary": "101 treatment-naive patients and 449 previously-treated patients (received at least one or at least two previous systemic therapies for advanced disease depending on cohort)"
+    },
+    "design": {
+      "study_type": "Other",
+      "sample_size": 550,
+      "intervention": "Pembrolizumab (2 mg/kg every 3 weeks or 10 mg/kg every 2 or 3 weeks), pooled for all doses",
+      "comparator": null,
+      "primary_endpoint": "Proportion of patients with objective response, investigator-assessed according to immune-related response criteria",
+      "secondary_endpoints": [
+        "Overall survival",
+        "Duration of response",
+        "Progression-free survival",
+        "Incidence of adverse events (safety)"
+      ],
+      "followup_duration": "Median 34.5 months"
+    },
+    "results": {
+      "primary_result_text": "Investigator-assessed objective response was achieved for 41 of 101 treatment naive patients (41%) and 102 of 449 previously treated patients (23%).",
+      "primary_result_numeric": "Treatment naive: 41% (95% CI 30.9\u201350.8); Previously treated: 23% (95% CI 18.9\u201326.9)",
+      "safety_profile_summary": "Grade 3\u20135 treatment-related adverse events occurred in 66 patients (12%), with 30 (6%) discontinuing due to an adverse event. Most frequent grade 3\u20134 treatment-related adverse events were pneumonitis (2%) and fatigue (1%). Overall, 227 patients (41%) had serious adverse events, with 50 (9%) being treatment-related.",
+      "limitations_summary": "Tumour response assessment was switched from masked independent central review per RECIST v1.1 to investigator-assessed immune-related response criteria due to a protocol amendment. No data monitoring committee oversaw the study."
+    },
+    "predicted_reliability": "Low"
+  },
+  {
+    "filename": "Cancer - 2022 - H\u00f6xtermann - Safety of acupuncture in oncology  A systematic review and meta\u2010analysis of randomized.pdf",
+    "title": "Safety of acupuncture in oncology: A systematic review and meta- analysis of randomized controlled trials",
+    "publication_year": 2022,
+    "population": {
+      "cancer_type": "Oncological patients and cancer survivors, including those with breast cancer and colon cancer, among others.",
+      "disease_stage": "Various treatment statuses, including active oncological treatment (chemotherapy, radiotherapy, palliative), survivorship, surgery, diverse phases, and best supportive care.",
+      "patient_age_range": "Any age, with mean age in included studies ranging from 13.6 to 67.7 years (overall mean 54.5 years); included pediatric and adult patients.",
+      "sex_distribution": "Mean 81% female participants across included studies (range 0% to 100%).",
+      "comorbidities_summary": null,
+      "prior_treatments_summary": "Acupuncture is frequently used to treat side effects of cancer treatment; specific prior treatments for the overall population were not summarized."
+    },
+    "design": {
+      "study_type": "Meta-Analysis",
+      "sample_size": 4943,
+      "intervention": "Invasive acupuncture (including permanent needles, ear acupuncture, electroacupuncture).",
+      "comparator": "Sham acupuncture, treatment as usual (TAU), or any other active control (pharmacologic, psychological interventions, exercise, etc.).",
+      "primary_endpoint": "Safety of acupuncture in oncological patients, assessed by the frequency of adverse events (AEs).",
+      "secondary_endpoints": [
+        "Intervention-related AEs",
+        "Nonserious AEs",
+        "Serious AEs",
+        "Dropout because of AEs",
+        "Subgroup analyses for type of cancer, intervention type, and oncological treatment phase."
+      ],
+      "followup_duration": null
+    },
+    "results": {
+      "primary_result_text": "Acupuncture was not associated with an increased risk of intervention-related AEs, nonserious AEs, serious AEs, or dropout because of AEs compared with sham acupuncture and active controls. Compared with TAU, acupuncture was not associated with an increased risk of intervention-related AEs, serious AEs, or dropout because of AEs, but was associated with an increased risk for nonserious AEs (odds ratio, 3.94; 95% CI, 1.16-13.35; P = .03). However, this increased risk was not robust against selection bias in sensitivity analyses. The review concludes that acupuncture is as safe as sham acupuncture and active controls in oncological patients.",
+      "primary_result_numeric": "For nonserious AEs compared with TAU: OR 3.94 (95% CI, 1.16-13.35; P = .03). Overall frequencies of AEs in the acupuncture group were: intervention-related (6.7%, 86/1278 patients), nonserious (20.2%, 151/746 patients), serious (0.7%, 6/829 patients), and dropout because of AEs (1.7%, 31/1825 patients).",
+      "safety_profile_summary": "Acupuncture was found to be safe, showing no increased risk of intervention-related, nonserious, serious AEs, or dropout compared to sham acupuncture and active controls. When compared to TAU, there was an increased risk for nonserious AEs (OR 3.94), but this finding was not robust to selection bias. The overall frequency of AEs in the acupuncture group was low, with intervention-related AEs at 6.7%, nonserious AEs at 20.2%, serious AEs at 0.7%, and dropout due to AEs at 1.7%.",
+      "limitations_summary": "The meta-analyses may have been biased due to insufficient reporting of AEs in the original randomized controlled trials; only 69.1% of included studies reported adequate safety data, and only 14.9% reported data for all four AE categories. Poor reporting of harms in RCTs was a significant issue. Substantial heterogeneity was observed in comparisons between acupuncture and active controls, potentially due to diverse control interventions. The increased risk of nonserious AEs versus TAU was not robust against selection bias."
+    },
+    "predicted_reliability": "Medium"
+  },
+  {
+    "filename": "s41467-024-45591-7.pdf",
+    "title": "Neoadjuvant \u2013adjuvant pertuzumab in HER2-positive early breast cancer: \ufb01nal analysis of the randomized phase III PEONY trial",
+    "publication_year": 2024,
+    "population": {
+      "cancer_type": "HER2-positive early or locally advanced breast cancer",
+      "disease_stage": "Early-stage (T2\u20133, N0\u20131, M0) or locally advanced (T2\u20133, N2 or N3, M0; T4, any N, M0)",
+      "patient_age_range": "\u226518 years",
+      "sex_distribution": "Female",
+      "comorbidities_summary": "ECOG Performance Status of 0/1, LVEF \u226555%",
+      "prior_treatments_summary": "Chemotherapy-naive"
+    },
+    "design": {
+      "study_type": "RCT",
+      "sample_size": 329,
+      "intervention": "Neoadjuvant pertuzumab with trastuzumab and docetaxel, followed by adjuvant 5-fluorouracil, epirubicin, and cyclophosphamide, then pertuzumab with trastuzumab until disease recurrence or unacceptable toxicity, for up to 1 year.",
+      "comparator": "Neoadjuvant placebo with trastuzumab and docetaxel, followed by adjuvant 5-fluorouracil, epirubicin, and cyclophosphamide, then placebo with trastuzumab until disease recurrence or unacceptable toxicity, for up to 1 year.",
+      "primary_endpoint": "Total pathologic complete response (tpCR) rate",
+      "secondary_endpoints": [
+        "Event-free survival (EFS)",
+        "Disease-free survival (DFS)",
+        "Overall survival (OS)",
+        "Safety"
+      ],
+      "followup_duration": "Median 62.9 months (5 years)"
+    },
+    "results": {
+      "primary_result_text": "The final analysis demonstrated improved long-term efficacy with neoadjuvant-adjuvant pertuzumab. Five-year event-free survival estimates were 84.8% with pertuzumab vs. 73.7% with placebo (HR 0.53; 95% CI 0.32\u20130.89). Five-year disease-free survival rates were 86.0% with pertuzumab vs. 75.0% with placebo (HR 0.52; 95% CI 0.30\u20130.88). A positive trend towards improved overall survival was observed with pertuzumab, although OS events were low in both arms.",
+      "primary_result_numeric": null,
+      "safety_profile_summary": "Safety profile was consistent with known pertuzumab safety. Any-grade diarrhea and upper respiratory tract infection were more frequent in the pertuzumab arm. Common grade \u22653 AEs included neutropenia, leukopenia, and febrile neutropenia. Serious AEs included febrile neutropenia, myelosuppression, and pneumonia. Cardiac toxicity (significant LVEF decline) events were low and comparable between arms. No new safety signals were identified.",
+      "limitations_summary": "Limitations include the descriptive nature of long-term efficacy endpoints (EFS, DFS, OS) as the study was not powered for these, and the lack of ado-trastuzumab emtansine (T-DM1) as an option for patients with residual disease (due to study design timing). Potential imbalances in prognostic factors (clinical lymph node-negative disease, T2 stage) between arms were noted. Long-term follow-up of cardiac function was not conducted."
+    },
+    "predicted_reliability": "High"
+  },
+  {
+    "filename": "129235-difficulty-in-diagnosing-rare-cardiac-tumors-a-case-series.pdf",
+    "title": "Difficulty in Diagnosing Rare Cardiac Tumors: A Case Series",
+    "publication_year": 2023,
+    "population": {
+      "cancer_type": "Malignant primary cardiac tumors (high-grade spindle cell sarcoma, small cell carcinoma of likely primary cardiac origin)",
+      "disease_stage": "Case 1: Initially localized cardiac mass, progressed to metastatic disease (brain, pterygoid soft tissue, lung, mediastinal nodes). Case 2: Cardiac mass, with an initial concern for metastatic brain lesion that self-resolved.",
+      "patient_age_range": "72-75 years",
+      "sex_distribution": "2 males",
+      "comorbidities_summary": "Case 1: History of desmoplastic and spindle cell melanoma with lymph node involvement. Case 2: History of stage IB adenocarcinoma of the lung (resected in 2016), chronic pulmonary obstructive disease (COPD).",
+      "prior_treatments_summary": "Case 1 (for melanoma): Excision, nivolumab. Case 1 (for cardiac sarcoma): Gemcitabine and docetaxel, then proton beam radiation with gemcitabine. Case 2 (for lung cancer): VATS with wedge resection and lymph node resection. Case 2 (for cardiac small cell carcinoma): Carboplatin, etoposide, and atezolizumab, followed by maintenance atezolizumab."
+    },
+    "design": {
+      "study_type": "Case Series",
+      "sample_size": 2,
+      "intervention": "Diagnostic workup for intracardiac masses (PET scan, MRI, echocardiogram, endomyocardial biopsy, surgical biopsy) followed by specific cancer treatments (chemotherapy, radiation, immunotherapy) tailored to the pathological diagnosis.",
+      "comparator": null,
+      "primary_endpoint": "To illustrate the diagnostic dilemma and the importance of obtaining a pathological diagnosis for rare malignant cardiac tumors.",
+      "secondary_endpoints": [],
+      "followup_duration": "Case 1: 14 months after initial radiographic diagnosis. Case 2: Stable as of September 2022 (approximately 8-9 months post-diagnosis/treatment initiation)."
+    },
+    "results": {
+      "primary_result_text": "The case series illustrates the difficulty in accurately diagnosing rare malignant cardiac tumors using non-invasive imaging, emphasizing that endomyocardial biopsy can yield false negatives. Pathological diagnosis, even if challenging and high-risk, is crucial as it can significantly alter patient management and open up new treatment options, despite the generally poor prognosis.",
+      "primary_result_numeric": null,
+      "safety_profile_summary": "Cardiac biopsies are high-risk procedures, with potential significant complications including access site hematoma, valvular damage, pericardial tamponade, venous thrombosis, and pulmonary emboli (general complication rate 1-6%). In Case 1, an endomyocardial biopsy was falsely negative, necessitating a higher-risk surgical biopsy. Challenges also include identifying the true need for a biopsy and locating skilled operators.",
+      "limitations_summary": "The inherent limitations of a case series, including limited generalizability. The study also highlights the unpredictable nature and diagnostic limitations of non-invasive imaging and the potential for false negatives with less invasive biopsy methods (like endomyocardial biopsy)."
+    },
+    "predicted_reliability": "Low"
+  },
+  {
+    "filename": "s40959-024-00208-2.pdf",
+    "title": "The efficacy and safety of exercise regimens to mitigate chemotherapy cardiotoxicity: a systematic review and meta-analysis of randomized controlled trials",
+    "publication_year": 2024,
+    "population": {
+      "cancer_type": "Any type of cancer, predominantly breast cancer, also including Sarcoma hip/thigh, Lymphoma, Multiple myeloma, Osteosarcoma, Hodgkin\u2019s disease, and Leukemias.",
+      "disease_stage": "Early to advanced stages, primarily I-III/IIIA, with some studies including stage IV.",
+      "patient_age_range": "Mean ages typically ranged from 45-58 years across included studies.",
+      "sex_distribution": null,
+      "comorbidities_summary": "Comorbidities such as diabetes, obesity, hyperlipidemia, and smoking status were reported with varying frequencies across studies.",
+      "prior_treatments_summary": "Patients receiving cardiotoxic chemotherapy including anthracyclines, taxanes, doxorubicin, cyclophosphamide, epirubicin, 5-FU, docetaxel, trastuzumab, pertuzumab, carboplatin, paclitaxel, capecitabine, Herceptin, Perjeta, Adriamycin, and Taxol."
+    },
+    "design": {
+      "study_type": "Meta-Analysis",
+      "sample_size": 952,
+      "intervention": "Any form of supervised aerobic or resistance exercise training, including high-intensity interval training, across various durations, frequencies, and intensities.",
+      "comparator": "Usual care or usual physical activity, without supervised exercise training.",
+      "primary_endpoint": "VO2 peak",
+      "secondary_endpoints": [
+        "left ventricular ejection fraction (LVEF) change",
+        "change in global longitudinal strain (GLS)",
+        "cardiac output (CO) (L/min) change",
+        "stroke volume (SV) (ml) change",
+        "left ventricular end-diastolic volume (LVEDV) (ml) change",
+        "left ventricular end-systolic volume (LVESV) (ml) change",
+        "E/A ratio change",
+        "respiratory exchange ratio (RER) change",
+        "resting heart rate (RHR) change",
+        "peak heart rate (PHR) change",
+        "resting systolic blood pressure (RSBP) (mmHg) change",
+        "resting diastolic blood pressure (RDBP) (mmHg) change",
+        "incidence of any adverse events",
+        "incidence of any serious adverse events",
+        "incidence of any adverse events leading to withdrawal",
+        "mortality"
+      ],
+      "followup_duration": "Varied across included RCTs, ranging from 9 weeks to 2 years, with additional follow-up periods in some studies (e.g., 3 months after intervention, 3-4 weeks after chemotherapy)."
+    },
+    "results": {
+      "primary_result_text": "Exercise significantly increased VO2 peak (MD: 1.95 with 95% CI [0.59, 3.32], P = 0.005).",
+      "primary_result_numeric": "MD: 1.95, 95% CI [0.59, 3.32], P = 0.005",
+      "safety_profile_summary": "No significant difference regarding any adverse events (AEs) (RR: 4.44 with 95% CI [0.47, 41.56], P = 0.19), AEs leading to withdrawal (RR: 2.87 with 95% CI [0.79, 10.43], P = 0.11), serious AEs (RR: 3.00 with 95% CI [0.14, 65.90], P = 0.49), or all-cause mortality (RR: 0.25 with 95% CI [0.03, 2.22], P = 0.21).",
+      "limitations_summary": "The meta-analysis found that the evidence for some outcomes was insufficient and further studies are needed, particularly regarding the conclusiveness and reliability of the data for pooled trials, and whether current data is sufficient to encourage exercise for patients at risk of chemotherapy-induced cardiotoxicity."
+    },
+    "predicted_reliability": "Medium"
+  },
+  {
+    "filename": "s40959-024-00208-2.pdf",
+    "title": "The efficacy and safety of exercise regimens to mitigate chemotherapy cardiotoxicity: a systematic review and meta-analysis of randomized controlled trials",
+    "publication_year": 2024,
+    "population": {
+      "cancer_type": "Various types of cancer, predominantly breast cancer",
+      "disease_stage": "Stage I-III (predominantly)",
+      "patient_age_range": "Not explicitly stated, but studies range from patients in their 40s to 50s",
+      "sex_distribution": "Not explicitly stated, but the majority of included studies focus on breast cancer patients, implying a predominantly female population.",
+      "comorbidities_summary": "Some patients had comorbidities such as diabetes, obesity, and hyperlipidemia.",
+      "prior_treatments_summary": "Patients were receiving cardiotoxic chemotherapy agents (e.g., doxorubicin, cyclophosphamide, taxanes, trastuzumab, anthracyclines)."
+    },
+    "design": {
+      "study_type": "Meta-Analysis",
+      "sample_size": 952,
+      "intervention": "Supervised aerobic or resistance exercise training",
+      "comparator": "Usual care without any form of exercise training",
+      "primary_endpoint": "VO2 peak",
+      "secondary_endpoints": [
+        "Left ventricular ejection fraction (LVEF) change",
+        "Global longitudinal strain (GLS) change",
+        "Cardiac output (CO) change",
+        "Stroke volume (SV) change",
+        "Left ventricular end-diastolic volume (LVEDV) change",
+        "Left ventricular end-systolic volume (LVESV) change",
+        "E/A ratio change",
+        "Respiratory exchange ratio (RER) change",
+        "Resting heart rate (RHR) change",
+        "Peak heart rate (PHR) change",
+        "Resting systolic blood pressure (RSBP) change",
+        "Resting diastolic blood pressure (RDBP) change",
+        "Incidence of any adverse events",
+        "Incidence of any serious adverse events",
+        "Incidence of any adverse events leading to withdrawal",
+        "Mortality"
+      ],
+      "followup_duration": "Varies by study, ranging from 9 weeks to 2 years post-intervention."
+    },
+    "results": {
+      "primary_result_text": "Exercise significantly increased VO2 peak. There was no significant effect regarding left ventricular ejection fraction, global longitudinal strain, cardiac output, stroke volume, left ventricular end-diastolic volume, left ventricular end-systolic volume, E/A ratio, resting heart rate, peak heart rate, resting systolic blood pressure, and resting diastolic blood pressure. There was also no significant difference regarding any adverse events, AEs leading to withdrawal, serious AEs, or all-cause mortality.",
+      "primary_result_numeric": "VO2 peak: MD: 1.95 with 95% CI [0.59, 3.32], P = 0.005. Adverse Events: RR: 4.44 with 95% CI [0.47, 41.56], P = 0.19.",
+      "safety_profile_summary": "No significant difference was found regarding any adverse events (RR: 4.44 with 95% CI [0.47, 41.56], P = 0.19), adverse events leading to withdrawal (RR: 2.87 with 95% CI [0.79, 10.43], P = 0.11), serious adverse events (RR: 3.00 with 95% CI [0.14, 65.90], P = 0.49), or all-cause mortality (RR: 0.25 with 95% CI [0.03, 2.22], P = 0.21).",
+      "limitations_summary": "The study does not explicitly list limitations in the provided text. However, meta-analyses can be limited by the quality and heterogeneity of the included studies."
+    },
+    "predicted_reliability": "Medium"
+  },
+  {
+    "filename": "Psycho-Oncology - 2023 - Zion - Changing cancer mindsets  A randomized controlled feasibility and efficacy trial.pdf",
+    "title": "Changing cancer mindsets: A randomized controlled feasibility and efficacy trial",
+    "publication_year": 2023,
+    "population": {
+      "cancer_type": "Non-metastatic cancers (including breast, colon/rectal, prostate, lymphoma, leukemia, endometrial, lung, ovarian, pancreatic, thyroid, melanoma)",
+      "disease_stage": "Stage I-III or hematological malignancy (stage unknown or unstaged also included)",
+      "patient_age_range": "Adults (>= 18 years), mean age 52.39 (SD 12.85) years",
+      "sex_distribution": "82.3% female",
+      "comorbidities_summary": "Patients with severe, uncontrolled psychiatric comorbidities (e.g., severe depression, severe anxiety, bipolar disorder, PTSD, schizophrenia) were excluded.",
+      "prior_treatments_summary": "Undergoing or about to begin a course of treatment for initial (non-recurrent) diagnosis within the past 150 days."
+    },
+    "design": {
+      "study_type": "RCT",
+      "sample_size": 361,
+      "intervention": "Cancer Mindset Intervention (CMI): a digital intervention with seven online modules over 10 weeks (2.5h total) targeting mindsets about cancer and the body.",
+      "comparator": "Treatment as Usual (TAU)",
+      "primary_endpoint": "Overall Health-Related Quality of Life (HRQoL) measured by the FACT-G total score.",
+      "secondary_endpoints": [
+        "Coping behaviors measured by the Cancer Behavior Inventory (CBI)",
+        "Symptom distress measured by the physical symptom distress subscale of the Rotterdam Symptom Checklist (RSCL)"
+      ],
+      "followup_duration": "10 weeks (intervention period), with some exploratory follow-up at week 14."
+    },
+    "results": {
+      "primary_result_text": "The CMI group reported significant improvements in overall HRQoL (B=0.60; p<0.001), adaptive coping behaviors (B=0.03; p<0.001), and reduced distress from physical symptoms (B=-0.29; p<0.01) compared to the TAU group. Effect sizes ranged from d=0.42\u2013d=0.54. The CMI was effective in improving physical, social, emotional, and functional HRQoL.",
+      "primary_result_numeric": "Mean change in FACT-G total score was +5.55 in the CMI group vs -1.01 in the TAU group (p<0.001), with an effect size of d=0.52.",
+      "safety_profile_summary": "Not explicitly detailed, but the study design and outcomes suggest no major safety concerns were raised.",
+      "limitations_summary": "Comparison to TAU rather than an attention-matched control; disproportionately high representation of female and white participants; potential influence of health literacy, stigma, and willingness to participate based on race/ethnicity and education."
+    },
+    "predicted_reliability": "High"
+  },
+  {
+    "filename": "reck-et-al-2021-five-year-outcomes-with-pembrolizumab-versus-chemotherapy-for-metastatic-.pdf",
+    "title": "Five-Year Outcomes With Pembrolizumab Versus Chemotherapy for Metastatic Non \u2013Small-Cell Lung Cancer With PD-L1 Tumor Proportion Score \u202150%",
+    "publication_year": 2021,
+    "population": {
+      "cancer_type": "Non-Small-Cell Lung Cancer (NSCLC)",
+      "disease_stage": "Metastatic (Stage IV)",
+      "patient_age_range": "18 years and older",
+      "sex_distribution": "Male 59.7% (Pembrolizumab) vs 62.9% (Chemotherapy)",
+      "comorbidities_summary": "Exclusion criteria included untreated brain metastases or active autoimmune disease requiring systemic treatment or receiving systemic glucocorticoids or immunosuppressive therapy.",
+      "prior_treatments_summary": "Previously untreated"
+    },
+    "design": {
+      "study_type": "RCT",
+      "sample_size": 305,
+      "intervention": "Pembrolizumab (200 mg once every 3 weeks for up to 35 cycles)",
+      "comparator": "Platinum-based chemotherapy (carboplatin/cisplatin) plus pemetrexed or gemcitabine, or carboplatin plus paclitaxel for 4 to 6 cycles.",
+      "primary_endpoint": "Progression-free survival (PFS)",
+      "secondary_endpoints": [
+        "Overall survival (OS)",
+        "Objective response rate (ORR)",
+        "Safety and tolerability",
+        "PFS2 (exploratory)"
+      ],
+      "followup_duration": "5 years"
+    },
+    "results": {
+      "primary_result_text": "Pembrolizumab significantly improved progression-free survival (PFS) and overall survival (OS) compared to chemotherapy. At 5 years, the OS rate was 31.9% for pembrolizumab and 16.3% for chemotherapy. Median OS was 26.3 months for pembrolizumab vs 13.4 months for chemotherapy. Median PFS was 7.7 months for pembrolizumab vs 5.5 months for chemotherapy.",
+      "primary_result_numeric": "5-year OS rate: Pembrolizumab 31.9% vs Chemotherapy 16.3%. Median OS: Pembrolizumab 26.3 months vs Chemotherapy 13.4 months. Median PFS: Pembrolizumab 7.7 months vs Chemotherapy 5.5 months.",
+      "safety_profile_summary": "Pembrolizumab was well-tolerated with a lower incidence of treatment-related AEs (any grade and grade 3-5 toxicities) than platinum-based chemotherapy. No new safety signals were identified with long-term follow-up, and toxicity did not increase with longer treatment exposure. Serious treatment-related AEs occurred in 22.7% of pembrolizumab patients and 20.7% of chemotherapy patients. Two treatment-related deaths occurred in the pembrolizumab group and three in the chemotherapy group.",
+      "limitations_summary": "The high effective crossover rate (66.0%) of patients from the chemotherapy group to subsequent anti-PD-(L)1 therapy may have reduced the observed treatment effect for pembrolizumab versus chemotherapy. Evaluation of PFS and ORR by blinded independent central review (BICR) was discontinued after the second interim analysis."
+    },
+    "predicted_reliability": "High"
+  },
+  {
+    "filename": "1-s2.0-S095980492400056X-main.pdf",
+    "title": "Veliparib with carboplatin and paclitaxel in BRCA-mutated advanced breast cancer (BROCADE3): Final overall survival results from a randomized phase 3 trial",
+    "publication_year": 2024,
+    "population": {
+      "cancer_type": "Advanced breast cancer",
+      "disease_stage": "Metastatic disease",
+      "patient_age_range": "45-54 years",
+      "sex_distribution": "Female 99%, Male 1%",
+      "comorbidities_summary": null,
+      "prior_treatments_summary": "Received <= 2 prior lines of chemotherapy for metastatic disease. 81% of patients were chemotherapy naive. Previous platinum therapy use: 8-9%. Previous chemotherapy in neoadjuvant or adjuvant setting: 66-70%. Previous chemotherapy in metastatic setting: 19%."
+    },
+    "design": {
+      "study_type": "RCT",
+      "sample_size": 509,
+      "intervention": "Veliparib plus carboplatin and paclitaxel",
+      "comparator": "Placebo plus carboplatin and paclitaxel",
+      "primary_endpoint": "Progression-free survival (PFS)",
+      "secondary_endpoints": [
+        "Overall survival (OS)"
+      ],
+      "followup_duration": "Median follow-up was 65.7 months (veliparib group) and 68.4 months (control group)"
+    },
+    "results": {
+      "primary_result_text": "Final overall survival (OS) data showed that the improvement in progression-free survival (PFS) shown in the primary analysis did not translate into an OS benefit. Median OS was 32.4 months in the veliparib group vs 28.2 months in the placebo group.",
+      "primary_result_numeric": "Median OS: 32.4 months vs 28.2 months (HR, 0.916; 95% CI, 0.736 \u20131.140; P = .434). OS at 24 months: 61.4% vs 58.9%. OS at 36 months: 47.0% vs 40.3%.",
+      "safety_profile_summary": "The addition of veliparib was generally well tolerated. Neutropenia, anemia, and thrombocytopenia were the most common grade >=3 TEAEs. AEs leading to death occurred in 2.4% of patients in the veliparib group and 1.8% in the control group. MDS and/or AML were reported in a small number of patients.",
+      "limitations_summary": "One limitation to this data analysis is the potential effect of crossover to unblinded veliparib in the control group."
+    },
+    "predicted_reliability": "High"
+  },
+  {
+    "filename": "jgo-13-02-822.pdf",
+    "title": "Biliary cancer brain metastases: a multi-institution case series with case reports",
+    "publication_year": 2022,
+    "population": {
+      "cancer_type": "Biliary tract cancer (Cholangiocarcinoma and Gallbladder cancer)",
+      "disease_stage": "Metastatic (Brain metastases)",
+      "patient_age_range": "Not specified, but individual cases range from 35 to 81 years",
+      "sex_distribution": "13 out of 15 patients (86.7%) were female",
+      "comorbidities_summary": "History of multiple cancer diagnoses was an exclusion criterion. Specific comorbidities not detailed.",
+      "prior_treatments_summary": "Various prior treatments for primary cancer and metastases are described in individual cases (e.g., chemotherapy, radiation, surgery)."
+    },
+    "design": {
+      "study_type": "Retrospective",
+      "sample_size": 15,
+      "intervention": "Not applicable (observational study of existing cases)",
+      "comparator": "Not applicable",
+      "primary_endpoint": "Incidence and proportion of brain metastases from primary biliary cancers, and patient outcomes.",
+      "secondary_endpoints": [
+        "Clinical characteristics of patients with biliary cancer brain metastases",
+        "Overall survival from primary diagnosis",
+        "Overall survival from brain metastasis diagnosis",
+        "Time from primary diagnosis to brain metastasis",
+        "Time from brain metastasis diagnosis to death"
+      ],
+      "followup_duration": "Not explicitly stated as a fixed duration, but patient outcomes (survival) were followed until death or data collection."
+    },
+    "results": {
+      "primary_result_text": "A total of 15 biliary cancer patients with brain metastases were identified at Stanford and UCSF. The median overall survival from primary biliary cancer diagnosis was 214 days and from the time of brain metastasis diagnosis was 57 days. Death within 90 days of brain metastasis diagnosis occurred in 66.67% of patients.",
+      "primary_result_numeric": "Median OS from primary diagnosis: 214 days (95% CI: 71.69\u2013336.82). Median OS from brain metastasis diagnosis: 57 days (95% CI: 13.43\u2013120.64). 66.67% mortality within 90 days of brain metastasis diagnosis.",
+      "safety_profile_summary": "Not applicable as this is a retrospective analysis of outcomes, not an interventional study.",
+      "limitations_summary": "Retrospective nature of the study, small sample size, data from specific institutions, and potential variations in data collection across different time periods and institutions."
+    },
+    "predicted_reliability": "Low"
+  },
+  {
+    "filename": "1-s2.0-S0923753422041655-main.pdf",
+    "title": "Overall survival in the OlympiA phase III trial of adjuvant olaparib in patients with germline pathogenic variants in BRCA1/2 and high-risk, early breast cancer",
+    "publication_year": 2022,
+    "population": {
+      "cancer_type": "Early breast cancer (EBC)",
+      "disease_stage": "High-risk",
+      "patient_age_range": "Median age 42-43 years (IQR 36-49/50)",
+      "sex_distribution": "Not specified, but implied predominantly female given cancer type",
+      "comorbidities_summary": "Not specified",
+      "prior_treatments_summary": "Patients received (neo)adjuvant chemotherapy (taxane, anthracycline, or both), surgery, and radiation therapy if indicated. Hormone receptor-positive cancers received concurrent adjuvant endocrine therapy. Bisphosphonates and denosumab were allowed."
+    },
+    "design": {
+      "study_type": "RCT",
+      "sample_size": 1836,
+      "intervention": "Olaparib (300 mg b.i.d.) for 1 year",
+      "comparator": "Matching placebo for 1 year",
+      "primary_endpoint": "Invasive disease-free survival (IDFS)",
+      "secondary_endpoints": [
+        "Distant disease-free survival (DDFS)",
+        "Overall survival (OS)"
+      ],
+      "followup_duration": "Median follow-up of 3.5 years"
+    },
+    "results": {
+      "primary_result_text": "The second interim analysis of OS demonstrated significant improvement in the olaparib group compared to placebo (HR 0.68; 98.5% CI 0.47-0.97; P=0.009). Four-year OS was 89.8% in the olaparib group and 86.4% in the placebo group. Four-year IDFS was 82.7% vs 75.4% and 4-year DDFS was 86.5% vs 79.1%. Subset analyses showed benefit across major subgroups. No new safety signals were identified.",
+      "primary_result_numeric": "OS: HR 0.68 (98.5% CI 0.47-0.97), P=0.009. 4-year OS: 89.8% (olaparib) vs 86.4% (placebo). IDFS: 4-year rate 82.7% (olaparib) vs 75.4% (placebo). DDFS: 4-year rate 86.5% (olaparib) vs 79.1% (placebo).",
+      "safety_profile_summary": "No new safety signals were identified, including no new cases of acute myeloid leukemia or myelodysplastic syndrome.",
+      "limitations_summary": "Not explicitly mentioned in the provided text, but the nature of interim analyses often implies that final results may differ."
+    },
+    "predicted_reliability": "High"
+  },
+  {
+    "filename": "jamaoncology_li_2023_oi_230030_1695221906.85705.pdf",
+    "title": "Treatment With Niraparib Maintenance Therapy in Patients With Newly Diagnosed Advanced Ovarian Cancer: A Phase 3 Randomized Clinical Trial",
+    "publication_year": 2023,
+    "population": {
+      "cancer_type": "Newly diagnosed advanced ovarian cancer (high-grade serous or endometrioid epithelial ovarian cancer, fallopian tube carcinoma, or primary peritoneal carcinoma)",
+      "disease_stage": "Stage III or IV",
+      "patient_age_range": "32-77 years",
+      "sex_distribution": null,
+      "comorbidities_summary": null,
+      "prior_treatments_summary": "Received 6 to 9 cycles of platinum-based chemotherapy and had a complete response or partial response"
+    },
+    "design": {
+      "study_type": "RCT",
+      "sample_size": 384,
+      "intervention": "Niraparib with individualized starting dose (ISD)",
+      "comparator": "Placebo with individualized starting dose (ISD)",
+      "primary_endpoint": "Progression-free survival (PFS) as assessed by blinded, independent central review (BICR)",
+      "secondary_endpoints": [
+        "Overall survival (OS)",
+        "Time to first subsequent anticancer therapy (TFST)",
+        "PFS and OS in the HRD subgroup"
+      ],
+      "followup_duration": "Median follow-up for PFS was 27.5 months"
+    },
+    "results": {
+      "primary_result_text": "Median PFS with niraparib vs placebo was 24.8 vs 8.3 months (hazard ratio [HR], 0.45; 95% CI, 0.34-0.60; P < .001) in the intention-to-treat population. Niraparib maintenance therapy prolonged PFS regardless of post-operative residual disease or biomarker status.",
+      "primary_result_numeric": "Median PFS: 24.8 months (niraparib) vs 8.3 months (placebo). HR: 0.45 (95% CI, 0.34-0.60).",
+      "safety_profile_summary": "Grade 3 or higher TEAEs were reported in 54.5% of niraparib-treated patients vs 17.8% of placebo-treated patients. Most TEAEs were well-controlled, leading to low treatment discontinuation rates (6.7% vs 5.4%). Two cases of acute myeloid leukemia and myelodysplastic syndrome occurred in the niraparib group.",
+      "limitations_summary": "Use of a laboratory-developed, unvalidated HRD assay. R0 and R1 resections were grouped as optimal debulking, preventing subgroup analysis for R0 resection. The study did not assess quality of life."
+    },
+    "predicted_reliability": "High"
+  },
+  {
+    "filename": "PLOS_One_2025_Feasibility_trial_of_Darwin_OncoTreat_and_OncoTarget_precision_medicine_testing_to_improve_outcomes_for_patients_with_limited_metastatic_disease_that_failed_first-line_systemic_therapy.pdf",
+    "title": "Feasibility trial of Darwin OncoTreat and OncoTarget precision medicine testing to improve outcomes for patients with limited metastatic disease that failed first-line systemic therapy",
+    "publication_year": 2025,
+    "population": {
+      "cancer_type": "Solid tumors with oligometastases",
+      "disease_stage": "Metastatic",
+      "patient_age_range": ">=18 years",
+      "sex_distribution": null,
+      "comorbidities_summary": "Ineligible if severe uncontrolled cardiac, pulmonary, infectious or organic brain disease. Patients with brain metastases are eligible provided they qualify as oligometastases.",
+      "prior_treatments_summary": "Failed first-line systemic therapy, recurrent or residual disease following first-line or later systemic therapy."
+    },
+    "design": {
+      "study_type": "Prospective Cohort",
+      "sample_size": 20,
+      "intervention": "Integration of Darwin OncoTarget and OncoTreat testing, followed by treatment based on recommendations (standard of care or precision medicine-informed therapy).",
+      "comparator": "Historical control patients treated without OncoTarget and OncoTreat testing.",
+      "primary_endpoint": "Feasibility of OncoTarget and OncoTreat testing (ability to perform test, willingness to use off-label medication, ability to procure recommended agents, identification of barriers) and proportion of cases where testing results in a change in systemic treatment choice.",
+      "secondary_endpoints": [
+        "Progression-free survival compared to historical controls",
+        "Progression-free survival of radiation combined with precision oncology recommended treatment compared to previous line of treatment"
+      ],
+      "followup_duration": "Until death"
+    },
+    "results": {
+      "primary_result_text": "This is a feasibility trial, thus primary results focus on the feasibility endpoints. Specific numerical results are not yet available as the study is ongoing. The main outcomes assessed are the proportion of participants whose tumor biopsy successfully undergoes testing, the willingness of oncologists to use recommended treatments, the ability to procure recommended agents, and the proportion of cases where treatment choice changes based on testing.",
+      "primary_result_numeric": null,
+      "safety_profile_summary": "Toxicity will be assessed using CTCAE scoring system of grade 1-5 and attributed to radiotherapy or systemic therapy. Serious adverse events (CTCAE grade 4 or 5) will be reported to the IRB. Patients may have therapy discontinued or dose adjusted due to adverse events.",
+      "limitations_summary": "Potential limitations include difficulties in obtaining insurance coverage for off-label or costly precision medicine recommended agents, and the fact that certain cancer types (ovarian, cholangiocarcinoma, stomach) are considered suboptimal for Darwin testing due to mixed cellular subpopulations."
+    },
+    "predicted_reliability": "Medium"
+  },
+  {
+    "filename": "bardia-et-al-2024-final-results-from-the-randomized-phase-iii-ascent-clinical-trial-in-me.pdf",
+    "title": "Final Results From the Randomized Phase III ASCENT Clinical Trial in Metastatic Triple-Negative Breast Cancer and Association of Outcomes by Human Epidermal Growth Factor Receptor 2 and Trophoblast Cell Surface Antigen 2 Expression",
+    "publication_year": 2024,
+    "population": {
+      "cancer_type": "Metastatic Triple-Negative Breast Cancer (mTNBC)",
+      "disease_stage": "Metastatic",
+      "patient_age_range": "Median age 53-54 years (range, 27-82)",
+      "sex_distribution": "Primarily female (99-100%)",
+      "comorbidities_summary": null,
+      "prior_treatments_summary": "Patients received >= 2 previous standard chemotherapy regimens for unresectable, locally advanced, or metastatic disease. Median of 4 previous systemic regimens (range 2-17). 30-31% had previous use of checkpoint inhibitors. 96-99% had prior treatment in the metastatic setting."
+    },
+    "design": {
+      "study_type": "RCT",
+      "sample_size": 529,
+      "intervention": "Sacituzumab govitecan (SG)",
+      "comparator": "Treatment of physician's choice (TPC)",
+      "primary_endpoint": "Not explicitly stated as primary in this text, but initial report was based on primary endpoint.",
+      "secondary_endpoints": [
+        "Progression-free survival (PFS)",
+        "Overall survival (OS)",
+        "Objective response rate (ORR)",
+        "Duration of response (DOR)",
+        "Time to response",
+        "Safety"
+      ],
+      "followup_duration": "Median follow-up was 11.2 months (SG) and 6.3 months (TPC)."
+    },
+    "results": {
+      "primary_result_text": "SG improved median progression-free survival (PFS) from 1.7 months to 4.8 months (HR, 0.41 [95% CI, 0.33 to 0.52]) and median overall survival (OS) from 6.9 months to 11.8 months (HR, 0.51 [95% CI, 0.42 to 0.63]) over TPC in the intention-to-treat (ITT) population.",
+      "primary_result_numeric": "PFS: SG 4.8 months vs TPC 1.7 months (HR 0.41); OS: SG 11.8 months vs TPC 6.9 months (HR 0.51)",
+      "safety_profile_summary": "SG had a manageable safety profile, with \u22645% of treatment-related discontinuations due to adverse events and no treatment-related deaths. The safety profile was consistent across all subgroups. Most frequent treatment-emergent adverse events (TEAEs) were neutropenia (52%), diarrhea (12%), and leukopenia (11%).",
+      "limitations_summary": "Limitations include the exploratory nature of the subgroup analyses, the relatively small number of patients in each subgroup, the use of archival tissue, and the lack of a pre-specified analysis."
     },
     "predicted_reliability": "High"
   }
