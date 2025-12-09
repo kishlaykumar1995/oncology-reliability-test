@@ -32,7 +32,7 @@ def main():
     # 3. Process Batch
     results = []
 
-    for filename in pdf_files:
+    for filename in pdf_files[36:]:
         path = os.path.join(PDF_FOLDER, filename)
         try:
             study_data = extractor.analyze_paper(path)
@@ -43,8 +43,20 @@ def main():
             print(f"❌ Error processing {filename}")
 
     # 4. Save Results
+    existing_data = []
+    if os.path.exists(OUTPUT_FILE):
+        try:
+            with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if isinstance(data, list):
+                    existing_data = data
+        except Exception:
+            pass
+
+    final_results = existing_data + results
+
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(results, f, indent=2)
+        json.dump(final_results, f, indent=2)
 
     print(f"\nExtraction complete. Data saved to {OUTPUT_FILE}")
 
