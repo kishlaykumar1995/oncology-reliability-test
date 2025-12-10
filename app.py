@@ -2,6 +2,8 @@ import streamlit as st
 import json
 import os
 import pandas as pd
+from pinecone import Pinecone
+from pinecone_plugins.assistant.models.chat import Message
 
 # -----------------------------------------------------------------------------
 # 1. Configuration & Layout
@@ -13,7 +15,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for "Cards"
+# Custom CSS for "Cards" and citations
 st.markdown("""
 <style>
     .metric-card {
@@ -34,12 +36,22 @@ st.markdown("""
     }
     .stTextInput > div > div > input {
         background-color: #f0f2f6;
+        color: #31333F; /* Force dark text color */
+    }
+    .citation-box {
+        font-size: 0.85em;
+        color: #555;
+        background-color: #fff;
+        border: 1px solid #eee;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
     }
 </style>
 """, unsafe_allow_html=True)
 
 # -----------------------------------------------------------------------------
-# 2. Data Loading
+# 2. Data Loading & Helper Functions
 # -----------------------------------------------------------------------------
 @st.cache_data
 def load_data():
@@ -53,7 +65,7 @@ def load_data():
 data = load_data()
 df = pd.DataFrame(data)
 
-# Helper to safely get nested values (since DataFrame flattens JSON awkwardly sometimes)
+# Helper to safely get nested values
 def get_nested(record, *keys):
     val = record
     for key in keys:
@@ -64,11 +76,36 @@ def get_nested(record, *keys):
     return val if not isinstance(val, dict) else None
 
 # -----------------------------------------------------------------------------
-# 3. Sidebar - Stats
+# 3. Pinecone Initialization
+# -----------------------------------------------------------------------------
+@st.cache_resource
+def get_assistant():
+    api_key = os.environ.get('PINECONE_API_KEY')
+    if not api_key:
+        return None
+    try:
+        pc = Pinecone(api_key=api_key)
+        # Initialize the assistant
+        assistant = pc.assistant.Assistant(
+            assistant_name="oncology-reliability", 
+        )
+        return assistant
+    except Exception as e:
+        st.error(f"Failed to connect to Pinecone: {e}")
+        return None
+
+assistant = get_assistant()
+
+# -----------------------------------------------------------------------------
+# 4. Sidebar - Stats
 # -----------------------------------------------------------------------------
 with st.sidebar:
     st.title("🧬 OncoSift")
     st.markdown("---")
+    
+    # API Key Check
+    if not os.environ.get('PINECONE_API_KEY'):
+        st.warning("⚠️ PINECONE_API_KEY not found in environment variables. Search will not work.")
     
     if not df.empty:
         total_docs = len(df)
@@ -85,16 +122,71 @@ with st.sidebar:
         st.warning("No data found. Please ensure 'extracted_oncology_data.json' exists.")
 
 # -----------------------------------------------------------------------------
-# 4. Main Page - Search & Tabs
+# 5. Main Page - Search & Tabs
 # -----------------------------------------------------------------------------
 st.markdown("## AI-Assisted Oncology Research Intelligence")
 
-# Search Bar (RAG Placeholder)
+# Search Bar (Pinecone Assistant Integration)
 search_query = st.text_input("🔍 Ask a question about the research (e.g., 'What is the pCR rate in KEYNOTE-522?')", "")
+
 if search_query:
-    st.info(f"RAG Search is under construction. Searching for: **{search_query}**")
-    # Here you would call your RAG backend
-    
+    if not assistant:
+        st.error("Pinecone Assistant is not initialized. Check your API Key.")
+    else:
+        with st.spinner("Consulting oncology knowledge base..."):
+            try:
+                # Construct message for Pinecone
+                msg = Message(role="user", content=search_query)
+                
+                # Call Pinecone Assistant
+                resp = assistant.chat(messages=[msg])
+                
+                # Depending on SDK version, resp might be an object or dict. 
+                # We handle both access patterns below.
+                if isinstance(resp, dict):
+                    content = resp.get('message', {}).get('content', '')
+                    citations = resp.get('citations', [])
+                else:
+                    # Assuming Pydantic model access
+                    content = resp.message.content
+                    citations = resp.citations if hasattr(resp, 'citations') else []
+
+                # Display Answer
+                st.markdown("### 🤖 Answer")
+                st.info(content)
+
+                # Display Citations if available
+                if citations:
+                    st.markdown("#### 📚 Sources")
+                    
+                    # Extract unique files from citations structure
+                    unique_files = {}
+                    # Traverse: citations -> references -> file
+                    citation_list = citations if isinstance(citations, list) else [citations]
+                    
+                    for cit in citation_list:
+                        # Handle both object/dict access for nested structures
+                        refs = cit.get('references', []) if isinstance(cit, dict) else getattr(cit, 'references', [])
+                        
+                        for ref in refs:
+                            file_obj = ref.get('file', {}) if isinstance(ref, dict) else getattr(ref, 'file', {})
+                            
+                            # Safely extract fields
+                            fname = file_obj.get('name') if isinstance(file_obj, dict) else getattr(file_obj, 'name', 'Unknown File')
+                            furl = file_obj.get('signed_url') if isinstance(file_obj, dict) else getattr(file_obj, 'signed_url', '#')
+                            
+                            if fname and fname not in unique_files:
+                                unique_files[fname] = furl
+
+                    # Render sources
+                    cols = st.columns(len(unique_files)) if unique_files else [st.container()]
+                    for idx, (fname, url) in enumerate(unique_files.items()):
+                        with st.expander(f"📄 Source: {fname}"):
+                            st.markdown(f"[Download / View PDF]({url})")
+
+            except Exception as e:
+                st.error(f"Error retrieving answer: {e}")
+
 st.markdown("<br>", unsafe_allow_html=True)
 
 # Tabs
@@ -102,7 +194,7 @@ tab1, tab2, tab3 = st.tabs(["Oncology", "Cardiology (Coming Soon)", "Neurology (
 
 with tab1:
     # -------------------------------------------------------------------------
-    # 5. Filters (Dropdowns)
+    # 6. Filters (Dropdowns)
     # -------------------------------------------------------------------------
     if not df.empty:
         # Extract unique cancer types for the dropdown
@@ -129,7 +221,7 @@ with tab1:
         st.markdown("---")
 
         # ---------------------------------------------------------------------
-        # 6. Display Cards
+        # 7. Display Cards
         # ---------------------------------------------------------------------
         for doc in filtered_data:
             reliability = doc.get('predicted_reliability', 'Low')
